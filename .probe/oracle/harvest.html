@@ -1,0 +1,80 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>fp</title></head><body>
+<pre id="out">PENDING</pre>
+<script>
+function collectAll() {
+  const out = { ua: navigator.userAgent, hardwareConcurrency: navigator.hardwareConcurrency };
+  // WebGL
+  try {
+    const cv = document.createElement('canvas');
+    const gl = cv.getContext('webgl') || cv.getContext('experimental-webgl');
+    const ext = gl.getExtension('WEBGL_debug_renderer_info');
+    out.glVendor = ext ? gl.getParameter(ext.UNMASKED_VENDOR_WEBGL) : gl.getParameter(gl.VENDOR);
+    out.glRenderer = ext ? gl.getParameter(ext.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER);
+    out.glVersion = gl.getParameter(gl.VERSION);
+    out.glSL = gl.getParameter(gl.SHADING_LANGUAGE_VERSION);
+    out.glExtensions = gl.getSupportedExtensions();
+    out.glMaxTex = gl.getParameter(gl.MAX_TEXTURE_SIZE);
+    out.glAttrs = gl.getContextAttributes ? gl.getContextAttributes() : null;
+  } catch (e) { out.glErr = String(e); }
+  // Canvas 2D —— 与还原出的指纹层逐行一致
+  try {
+    const cv = document.createElement('canvas');
+    cv.width = 240; cv.height = 60;
+    cv.style.display = 'inline';
+    const ctx = cv.getContext('2d');
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillStyle = '#f60';
+    ctx.fillRect(125, 1, 62, 20);
+    ctx.fillStyle = '#069';
+    ctx.font = '11pt no-real-font-123';
+    ctx.fillText('Cwm fjordbank glyphs vext quiz, \uD83D\uDE03', 2, 15);
+    ctx.fillStyle = 'rgba(102, 204, 0, 0.7)';
+    ctx.font = '18pt Arial';
+    ctx.fillText('Cwm fjordbank glyphs vext quiz, \uD83D\uDE03', 4, 45);
+    ctx.globalCompositeOperation = 'multiply';
+    ctx.fillStyle = 'rgb(255,0,255)';
+    ctx.beginPath(); ctx.arc(50, 50, 50, 0, Math.PI * 2, true); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = 'rgb(0,255,255)';
+    ctx.beginPath(); ctx.arc(100, 50, 50, 0, Math.PI * 2, true); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = 'rgb(255,255,0)';
+    ctx.beginPath(); ctx.arc(75, 100, 50, 0, Math.PI * 2, true); ctx.closePath(); ctx.fill();
+    out.canvasDataURL = cv.toDataURL();
+  } catch (e) { out.canvasErr = String(e); }
+  // 字体：base 基线 + 每个候选族的三组宽高
+  const base = ['monospace', 'sans-serif', 'serif'];
+  const fonts = ['Arial','Arial Black','Arial Hebrew','Arial Narrow','Arial Rounded MT Bold',
+    'Bahnschrift','Baskerville','Book Antiqua','Bookman Old Style','Calibri','Cambria',
+    'Cambria Math','Candara','Comic Sans MS','Consolas','Constantia','Corbel','Courier New',
+    'Garamond','Geneva','Georgia','Helvetica','Impact','Lucida Console','Lucida Fax',
+    'LUCIDA GRANDE','Lucida Sans','Lucida Sans Typewriter','MS Sans Serif','MS Serif',
+    'MV Boli','Palatino Linotype','Segoe Print','Segoe Script','Segoe UI','Sylfaen',
+    'Symbol','Tahoma','Times New Roman','Trebuchet MS','Verdana','Wingdings'];
+  const test = 'mmmmmmmmmmlli', size = '72px';
+  const span = document.createElement('span');
+  span.style.fontSize = size; span.innerHTML = test;
+  const body = document.body;
+  const def = {};
+  for (const b of base) { span.style.fontFamily = b; body.appendChild(span); def[b] = [span.offsetWidth, span.offsetHeight]; body.removeChild(span); }
+  out.baseMetrics = def;
+  const per = {}; const detected = [];
+  for (const f of fonts) {
+    per[f] = {}; let hit = false;
+    for (const b of base) {
+      span.style.fontFamily = f + ',' + b; body.appendChild(span);
+      const w = span.offsetWidth, h = span.offsetHeight; body.removeChild(span);
+      per[f][b] = [w, h];
+      if (w !== def[b][0] || h !== def[b][1]) hit = true;
+    }
+    if (hit) detected.push(f);
+  }
+  out.fontMetrics = per; out.detected = detected;
+  // plugins
+  out.plugins = []; for (let i = 0; i < navigator.plugins.length; i++) out.plugins.push(navigator.plugins[i].name);
+  // 其它常被查的
+  out.screen = { w: screen.width, h: screen.height, aw: screen.availWidth, ah: screen.availHeight, cd: screen.colorDepth, pd: screen.pixelDepth, dpr: devicePixelRatio };
+  return out;
+}
+try { document.getElementById('out').textContent = JSON.stringify(collectAll()); }
+catch (e) { document.getElementById('out').textContent = 'ERR ' + e; }
+</script>
+</body></html>

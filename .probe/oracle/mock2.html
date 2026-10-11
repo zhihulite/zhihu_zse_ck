@@ -1,0 +1,33 @@
+    <!DOCTYPE html><html lang="en"><head><meta id="zh-zse-ck" charset="UTF-8" content="C2ANk/ZtSEIW9G6vp5qOrdoDjPLaLC++/zOvNm7YvX6OgTpMt0GOeVSgnVV6ZPkBN714girXsxlfbxOMGseeH5BXIEQcWPdhahW7x8+R5sdDWINoMRzGn3zoHtHjuEeIJoi/Bmy40Mb5mRisWI0gcfUs+pfvXlDgT4n4d5nb+7Q="></head><body><div style="color:#535861;opacity: 0.1;display: flex;justify-content: center;">知乎，让每一次点击都充满意义 —— 欢迎来到知乎，发现问题背后的世界。</div><script data-assets-tracker-config='{"appName":"zse_ck","trackJSRuntimeError":true}' crossorigin="" src="https://static.zhihu.com/zse-ck/v4/f3ce73a712c6353fb103452a998e72d4ff127c89ac8fa03dd05ae6f91fb3f80b.js"></script><script>
+(function(){
+  var n=0;
+  var t=setInterval(function(){
+    n++;
+    try{
+      if(window.__g&&window.__b&&window.__c){
+        function dump(o){
+          var r={};
+          Object.getOwnPropertyNames(o).forEach(function(k){
+            var v; try{v=o[k];}catch(e){r[k]='THROW';return;}
+            if(typeof v==='string')r[k]='s'+v.length+':'+v.slice(0,26);
+            else if(Array.isArray(v))r[k]='arr'+v.length+(v.length?'['+v.slice(0,12).map(function(x){return typeof x==='string'?('s'+x.length):(typeof x==='number'?String(x):typeof x);}).join(',')+']':'');
+            else if(typeof v==='function')r[k]='fn';
+            else if(v===null)r[k]='null';
+            else if(typeof v==='object')r[k]='obj';
+            else r[k]=v;
+          });
+          return r;
+        }
+        var o={__b:dump(window.__b),__g:dump(window.__g),__c:dump(window.__c),
+               VMkeys:Object.getOwnPropertyNames(window.VM.prototype||{}).slice(0,40),
+               Bproto:Object.getPrototypeOf(window.__b)===window.VM.prototype};
+        localStorage.setItem('__snap2',JSON.stringify(o));
+        clearInterval(t);
+      }
+    }catch(e){localStorage.setItem('__snap2','ERR '+e.message);clearInterval(t);}
+    if(n>500)clearInterval(t);
+  },5);
+})();
+</script>
+</body></html>
+

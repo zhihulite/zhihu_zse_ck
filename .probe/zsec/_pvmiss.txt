@@ -1,0 +1,15 @@
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff8000400000008 lo=8 poolLen=9
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff800040000000b lo=11 poolLen=12
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff800040000000e lo=14 poolLen=15
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff800040000000b lo=11 poolLen=17
+CALL name="eval" v7type=object tag=[object Window] isNull=false isUndef=false isGlobal=true bits=0x7ff8000100000005 lo=5 poolLen=21
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff8000400000018 lo=24 poolLen=25
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff800040000000b lo=11 poolLen=27
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff800040000001c lo=28 poolLen=29
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff800040000000b lo=11 poolLen=31
+CALL name="getElementsByTagName" v7type=object tag=[object HTMLDocument] isNull=false isUndef=false isGlobal=false bits=0x7ff8000100000040 lo=64 poolLen=66
+CALL name="toString" v7type=undefined tag=[object HTMLAllCollection] isNull=false isUndef=false isGlobal=false bits=0x7ff8000100000046 lo=70 poolLen=75
+CALL name="createElement" v7type=object tag=[object HTMLDocument] isNull=false isUndef=false isGlobal=false bits=0x7ff8000100000040 lo=64 poolLen=78
+CALL name="toString" v7type=object tag=[object HTMLCanvasElement] isNull=false isUndef=false isGlobal=false bits=0x7ff800010000004e lo=78 poolLen=79
+CALL name="toString" v7type=function tag=[object Function] isNull=false isUndef=false isGlobal=false bits=0x7ff8000400000020 lo=32 poolLen=87
+CALL name="H" v7type=object tag=[object Object] isNull=false isUndef=false isGlobal=false bits=0x7ff8000100000065 lo=101 poolLen=103

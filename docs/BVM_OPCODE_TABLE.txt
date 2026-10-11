@@ -1,0 +1,260 @@
+# zse_ck JS 侧 BVM 完整操作码语义表（word 0..255）
+# 来源: zse_ck_cvm.restored.js 的 t(pc) 分派链（318 处 if(this.word<=N)、176 处 pc=）
+# 解析器: .probe/zsec/parse_chain.py（带字符串/反引号词法状态）
+
+    0  this.regs[this.dst]=this.regs[this.ra]>=this.regs[this.rb],pc=71
+    1  this.regs[this.dst]=this.regs[this.ra]>=this.regs[this.rb],pc=71
+    2  this.regs[this.dst]=this.regs[this.ra]>=this.regs[this.rb],pc=71
+    3  this.regs[this.dst]=this.regs[this.ra]>=this.regs[this.rb],pc=71
+    4  return!![]
+    5  return!![]
+    6  return!![]
+    7  return!![]
+    8  this.regs[this.fnReg]=this.subOp===+[]?this.val:this.buf[this.idx]
+    9  this.regs[this.fnReg]=this.subOp===+[]?this.val:this.buf[this.idx]
+   10  this.regs[this.fnReg]=this.subOp===+[]?this.val:this.buf[this.idx]
+   11  this.regs[this.fnReg]=this.subOp===+[]?this.val:this.buf[this.idx]
+   12  var v0=s.charCodeAt(0)<<16|s.charCodeAt(1)<<8|s.charCodeAt(2)
+   13  var v0=s.charCodeAt(0)<<16|s.charCodeAt(1)<<8|s.charCodeAt(2)
+   14  var v0=s.charCodeAt(0)<<16|s.charCodeAt(1)<<8|s.charCodeAt(2)
+   15  var v1=[]
+   16  var v1=[]
+   17  var v1=[]
+   18  this.regs[3]=new this.regs[this.fnReg](...args)
+   19  this.regs[3]=new this.regs[this.fnReg](...args)
+   20  this.regs[3]=new this.regs[this.fnReg](...args)
+   21  var w=args[0]
+   22  var w=args[0]
+   23  this.word<=25&&(this.subOp=w>>15&15)
+   24  this.word<=25&&(this.subOp=w>>15&15)
+   25  this.word<=25&&(this.subOp=w>>15&15)
+   26  this.V=![]
+   27  this.V=![]
+   28  this.V=![]
+   29  this.V=![]
+   30  return!![]
+   31  return!![]
+   32  return!![]
+   33  this.val=w&65535
+   34  this.val=w&65535
+   35  this.val=w&65535
+   36  var v2=this.t(139,this.arr[this.val]);pc=227;
+   37  var v2=this.t(139,this.arr[this.val]);pc=227;
+   38  var v2=this.t(139,this.arr[this.val]);pc=227;
+   39  var v2=this.t(139,this.arr[this.val]);pc=227;
+   40  this.subOp==12?pc=46:pc=47
+   41  this.subOp==12?pc=46:pc=47
+   42  this.subOp==12?pc=46:pc=47
+   43  this.subOp==12?pc=46:pc=47
+   44  return eval(v3.join())
+   45  return eval(v3.join())
+   46  return eval(v3.join())
+   47  return eval(v3.join())
+   48  this.subOp==0?pc=216:pc=224
+   49  this.subOp==0?pc=216:pc=224
+   50  this.subOp==0?pc=216:pc=224
+   51  this.subOp==0?pc=216:pc=224
+   52  this.word<=54&&(this.regs[this.dst]=-this.regs[this.ra],pc=71)
+   53  this.word<=54&&(this.regs[this.dst]=-this.regs[this.ra],pc=71)
+   54  this.word<=54&&(this.regs[this.dst]=-this.regs[this.ra],pc=71)
+   55  v3.join()["indexOf"]('.')!==-(1)?pc=154:pc=155
+   56  v3.join()["indexOf"]('.')!==-(1)?pc=154:pc=155
+   57  this.val=w&32767
+   58  this.val=w&32767
+   59  this.val=w&32767
+   60  args.unshift(this.rStack.pop())
+   61  args.unshift(this.rStack.pop())
+   62  args.unshift(this.rStack.pop())
+   63  args.unshift(this.rStack.pop())
+   64  this.word<=67&&(this.subOp==13?pc=48:pc=49)
+   65  this.word<=67&&(this.subOp==13?pc=48:pc=49)
+   66  this.word<=67&&(this.subOp==13?pc=48:pc=49)
+   67  this.word<=67&&(this.subOp==13?pc=48:pc=49)
+   68  v4.push(s.charCodeAt(v5)<<16|s.charCodeAt(v5+(1))<<8|s.charCodeAt(v5+(2)))
+   69  v4.push(s.charCodeAt(v5)<<16|s.charCodeAt(v5+(1))<<8|s.charCodeAt(v5+(2)))
+   70  v4.push(s.charCodeAt(v5)<<16|s.charCodeAt(v5+(1))<<8|s.charCodeAt(v5+(2)))
+   71  args.unshift(this.rStack.pop())
+   72  args.unshift(this.rStack.pop())
+   73  args.unshift(this.rStack.pop())
+   74  this.fnReg=w>>16&7
+   75  this.fnReg=w>>16&7
+   76  this.fnReg=w>>16&7
+   77  this.word<=79&&(this.regs[this.dst]=this.regs[this.ra]<=this.regs[this.rb],pc=71)
+   78  this.word<=79&&(this.regs[this.dst]=this.regs[this.ra]<=this.regs[this.rb],pc=71)
+   79  this.word<=79&&(this.regs[this.dst]=this.regs[this.ra]<=this.regs[this.rb],pc=71)
+   80  this.subOp==2?pc=190:pc=192
+   81  this.subOp==2?pc=190:pc=192
+   82  this.subOp==2?pc=190:pc=192
+   83  this.subOp==1?pc=225:pc=233
+   84  this.subOp==1?pc=225:pc=233
+   85  this.I=null
+   86  this.I=null
+   87  var s=atob(b64)
+   88  var s=atob(b64)
+   89  this.subOp==16?pc=54:pc=55
+   90  this.subOp==16?pc=54:pc=55
+   91  this.subOp==16?pc=54:pc=55
+   92  this.flag=this.regs[this.dst]
+   93  this.flag=this.regs[this.dst]
+   94  this.flag=this.regs[this.dst]
+   95  this.flag=this.regs[this.dst]
+   96  this.fnReg=w>>16&7
+   97  this.fnReg=w>>16&7
+   98  this.fnReg=w>>16&7
+   99  this.fnReg=w>>16&7
+  100  this.word<=103&&(this.subOp=w&3)
+  101  this.word<=103&&(this.subOp=w&3)
+  102  this.word<=103&&(this.subOp=w&3)
+  103  this.word<=103&&(this.subOp=w&3)
+  104  this.subOp==1?pc=124:pc=131
+  105  this.subOp==1?pc=124:pc=131
+  106  this.subOp==1?pc=124:pc=131
+  107  this.subOp==1?pc=124:pc=131
+  108  this.data=v4
+  109  this.data=v4
+  110  this.data=v4
+  111  this.subOp==2?pc=132:pc=138
+  112  this.subOp==2?pc=132:pc=138
+  113  this.word<=114&&("string"==typeof b64?pc=256:pc=257)
+  114  this.word<=114&&("string"==typeof b64?pc=256:pc=257)
+  115  v6>500?pc=271:pc=268
+  116  v6>500?pc=271:pc=268
+  117  var w=args[0]
+  118  var w=args[0]
+  119  var b64=args[0]
+  120  var b64=args[0]
+  121  var b64=args[0]
+  122  this.word<=125&&(v5<this.val?pc=128:pc=130)
+  123  this.word<=125&&(v5<this.val?pc=128:pc=130)
+  124  this.word<=125&&(v5<this.val?pc=128:pc=130)
+  125  this.word<=125&&(v5<this.val?pc=128:pc=130)
+  126  this.rStack.push(v2)
+  127  this.rStack.push(v2)
+  128  this.rStack.push(v2)
+  129  this.rStack.push(v2)
+  130  var v7=args[1]||0
+  131  var v7=args[1]||0
+  132  var v7=args[1]||0
+  133  var w=args[0]
+  134  var w=args[0]
+  135  this.word<=137&&(this.stack=this.idx,pc=111)
+  136  this.word<=137&&(this.stack=this.idx,pc=111)
+  137  this.word<=137&&(this.stack=this.idx,pc=111)
+  138  var v2=this.t(139,this.arr[this.idx]);pc=176;
+  139  var v2=this.t(139,this.arr[this.idx]);pc=176;
+  140  var v2=this.t(139,this.arr[this.idx]);pc=176;
+  141  var v2=this.t(139,this.arr[this.idx]);pc=176;
+  142  this.subOp==19?pc=60:pc=61
+  143  this.subOp==19?pc=60:pc=61
+  144  this.subOp==19?pc=60:pc=61
+  145  this.regs[this.dst]=this.regs[this.ra]>>this.regs[this.rb],pc=71
+  146  this.regs[this.dst]=this.regs[this.ra]>>this.regs[this.rb],pc=71
+  147  this.word<=148&&(this.subOp==7?pc=36:pc=37)
+  148  this.word<=148&&(this.subOp==7?pc=36:pc=37)
+  149  v5<s.length?pc=246:pc=250
+  150  v5<s.length?pc=246:pc=250
+  151  v5<s.length?pc=246:pc=250
+  152  this.regs[this.fnReg]=this.t(139,this.arr[this.idx]),pc=197
+  153  this.regs[this.fnReg]=this.t(139,this.arr[this.idx]),pc=197
+  154  this.regs[this.fnReg]=this.t(139,this.arr[this.idx]),pc=197
+  155  !this.flag?pc=107:pc=108
+  156  !this.flag?pc=107:pc=108
+  157  !this.flag?pc=107:pc=108
+  158  this.word<=161&&(this.fnReg=w>>15&7)
+  159  this.word<=161&&(this.fnReg=w>>15&7)
+  160  this.word<=161&&(this.fnReg=w>>15&7)
+  161  this.word<=161&&(this.fnReg=w>>15&7)
+  162  v1.push(v8)
+  163  v1.push(v8)
+  164  v1.push(v8)
+  165  v1.push(v8)
+  166  this.stack=v7
+  167  this.stack=v7
+  168  this.stack=v7
+  169  this.stack=v7
+  170  this.subOp==14?pc=50:pc=51
+  171  this.subOp==14?pc=50:pc=51
+  172  this.subOp==14?pc=50:pc=51
+  173  var b64=args[0]
+  174  var b64=args[0]
+  175  var b64=args[0]
+  176  var w=args[0]
+  177  var w=args[0]
+  178  var w=args[0]
+  179  var w=args[0]
+  180  var w=args[0]
+  181  var w=args[0]
+  182  v5<s.length?pc=144:pc=148
+  183  v5<s.length?pc=144:pc=148
+  184  v5<s.length?pc=144:pc=148
+  185  v5<s.length?pc=144:pc=148
+  186  this.word<=188&&(this.dst=w>>16&7)
+  187  this.word<=188&&(this.dst=w>>16&7)
+  188  this.word<=188&&(this.dst=w>>16&7)
+  189  this.t(234,b64),pc=259
+  190  this.t(234,b64),pc=259
+  191  this.idx=w&32767
+  192  this.idx=w&32767
+  193  v9=v10
+  194  v9=v10
+  195  var v5=0
+  196  var v5=0
+  197  var v5=0
+  198  v5<this.val?pc=120:pc=122
+  199  v5<this.val?pc=120:pc=122
+  200  v5<this.val?pc=120:pc=122
+  201  v5<this.val?pc=120:pc=122
+  202  v5+=v11+(2),pc=245
+  203  v5+=v11+(2),pc=245
+  204  v5+=v11+(2),pc=245
+  205  v5+=v11+(2),pc=245
+  206  parseInt(n)==4?pc=161:pc=162
+  207  parseInt(n)==4?pc=161:pc=162
+  208  parseInt(n)==4?pc=161:pc=162
+  209  parseInt(n)==4?pc=161:pc=162
+  210  var v5=0
+  211  var v5=0
+  212  var v5=0
+  213  this.stack=this.idx,pc=111
+  214  this.stack=this.idx,pc=111
+  215  this.val=w&4095
+  216  this.val=w&4095
+  217  this.subOp==0?pc=22:pc=23
+  218  this.subOp==0?pc=22:pc=23
+  219  this.word<=221&&(this.rb=w>>10&7)
+  220  this.word<=221&&(this.rb=w>>10&7)
+  221  this.word<=221&&(this.rb=w>>10&7)
+  222  return!![]
+  223  return!![]
+  224  return!![]
+  225  this.stack=this.idx,pc=111
+  226  this.stack=this.idx,pc=111
+  227  v5<this.val?pc=81:pc=83
+  228  v5<this.val?pc=81:pc=83
+  229  this.word<=231&&(this.J=w&65535)
+  230  this.word<=231&&(this.J=w&65535)
+  231  this.word<=231&&(this.J=w&65535)
+  232  return!![]
+  233  return!![]
+  234  return!![]
+  235  return!![]
+  236  this.rStack.push(this.buf[this.idx]),pc=177
+  237  this.rStack.push(this.buf[this.idx]),pc=177
+  238  this.rStack.push(this.buf[this.idx]),pc=177
+  239  this.subOp==18?pc=58:pc=59
+  240  this.subOp==18?pc=58:pc=59
+  241  this.word<=242&&(this.fnReg=w>>12&7)
+  242  this.word<=242&&(this.fnReg=w>>12&7)
+  243  var v12=this.rStack.pop()
+  244  var v12=this.rStack.pop()
+  245  var v12=this.rStack.pop()
+  246  this.buf[this.idx]=this.regs[this.fnReg]
+  247  this.buf[this.idx]=this.regs[this.fnReg]
+  248  this.buf[this.idx]=this.regs[this.fnReg]
+  249  this.buf[this.idx]=this.regs[this.fnReg]
+  250  this.subOp==11?pc=44:pc=45
+  251  this.subOp==11?pc=44:pc=45
+  252  this.subOp==11?pc=44:pc=45
+  253  this.word<=254&&(this.subOp==1?pc=103:pc=105)
+  254  this.word<=254&&(this.subOp==1?pc=103:pc=105)
+  255  var s=args[0]

@@ -1,0 +1,9 @@
+# 生成物（重跑即得）
+out/
+.probe/tmp/
+__pycache__/
+*.pyc
+*.pre_replay
+
+# 交付包由 tools/assemble_delivery.py 装配
+DELIVERY/

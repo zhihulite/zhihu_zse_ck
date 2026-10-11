@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta id="zh-zse-ck" charset="UTF-8" content="9tOv1xOxhFl+tw8Y+aaEnTJqDrFdcB5zKCCn+f4xqCHjXMhyd0LnfZ8evkcZ1qzTluOVTC9oOk71WuShwgbYS7f3fUWcbHc3CG+3/XapdzcDtLQI53hb1ZBPZJ1ayU7E+Z6Nn70jVMpWC9vC8uxGn7sy2zhYvn2rI/FTSDdhoVs="></head><body><div>zh</div><script>
+(function(){
+  var rec = [], n = 0;
+  var _g = Reflect.get, _s = Reflect.set;
+  function tagOf(t){ try { return (t===window)?'window':(t&&t.constructor&&t.constructor.name)?t.constructor.name:typeof t; } catch(e){ return '?'; } }
+  Reflect.get = function(t,k){
+    var r = _g.apply(this, arguments);
+    try {
+      if (++n <= 600) { rec.push('G|'+tagOf(t)+'|'+String(k)+'|'+(r===undefined?'undef':typeof r)+(typeof r==='string'?('s'+r.length):''));
+        if (rec.length % 20 === 0) localStorage.setItem('__rec', JSON.stringify(rec)); }
+    } catch(e){}
+    return r;
+  };
+  Reflect.set = function(t,k,v){
+    try {
+      if (++n <= 600) { rec.push('S|'+tagOf(t)+'|'+String(k)+'|'+(typeof v));
+        if (rec.length % 20 === 0) localStorage.setItem('__rec', JSON.stringify(rec)); }
+    } catch(e){}
+    return _s.apply(this, arguments);
+  };
+  setTimeout(function(){ try { localStorage.setItem('__rec', JSON.stringify(rec)); } catch(e){} }, 8000);
+})();
+</script>
+<script src="https://static.zhihu.com/zse-ck/v4/0eaa84a8ae8dd147f79d579bf546e4f947b02245db182736ff9e3365a0031cca.js"></script></body></html>

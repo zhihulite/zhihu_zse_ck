@@ -1,0 +1,4 @@
+[
+ "n=0 {\"t\":0,\"type\":\"undefined\",\"ftLen\":12,\"fpNative\":\"function toString() { [native code] }\"}",
+ "n=1 {\"t\":0,\"type\":\"function\",\"len\":44326,\"head\":\"function CVM(){var _0x3a51ce=_0x258f;thi\",\"ctorName\":\"Function\",\"ownKeys\":\"length,name,prototype\",\"ftLen\":12,\"fpNative\":\"function toString() { [native code] }\"}"
+]

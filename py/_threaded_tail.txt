@@ -1,0 +1,12 @@
+def stmts_threaded(body, indent=1):
+    """把 JS 块转成「`_pc` 状态机 + 显式跳转」的 Python（静态嵌套 ≤ 2 层）。"""
+    lines = _merge_labels([l.strip() for l in body.split('\n')])
+    nodes, _ = parse_block(lines, 0, len(lines))
+    g = _Gen()
+    entry = g.new()
+    env = {'brk': {}, 'cont': {}, 'loop_head': None, 'loop_after': None}
+    end = g.run(('seq', nodes), entry, env)
+    if end is not None:
+        g.term(end, 'return None')
+    head = ['    _pc = %d' % entry, '    while True:']
+    return head + g.emit(entry)

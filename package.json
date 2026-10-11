@@ -1,0 +1,12 @@
+{
+  "name": "zse-ck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "zse_ck 005_ 令牌的还原件与纯算流水线（运行时只依赖 Node 内置模块）",
+  "type": "commonjs",
+  "dependencies": {
+    "@babel/parser": "^7.24.0",
+    "@babel/generator": "^7.24.0",
+    "@babel/types": "^7.24.0"
+  }
+}

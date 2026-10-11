@@ -1,0 +1,31 @@
+    <!DOCTYPE html><html lang="en"><head><meta id="zh-zse-ck" charset="UTF-8" content="33dk0vI0YlNpd+AmuOaN49NvsqpjCbQe+x8PIXEt7HtScrne62dvZi8L95GtG5vKIquX7mK7Z5aSgrS0+x5WQCRFB5+s2q0i+e6O7PNKRx37IBFhs5eUOJUrWWzPe+ml3huQoN9cVxvqb54tTtNgwcB16fCUSD3FRoLrr5+XA5U="></head><body><div style="color:#535861;opacity: 0.1;display: flex;justify-content: center;">知乎，让每一次点击都充满意义 —— 欢迎来到知乎，发现问题背后的世界。</div><script data-assets-tracker-config='{"appName":"zse_ck","trackJSRuntimeError":true}' crossorigin="" src="https://static.zhihu.com/zse-ck/v4/b530496e3b498b70cf90762da01d6df99f45f367e95859f71f7048c67d11b95b.js"></script><script>
+(function(){
+  var n=0, best=null;
+  var t=setInterval(function(){
+    n++;
+    try{
+      if(window.__c && window.__c.i===1832){
+        function dump(o){
+          var r={};
+          Object.getOwnPropertyNames(o).forEach(function(k){
+            var v; try{v=o[k];}catch(e){r[k]='THROW';return;}
+            if(typeof v==='string')r[k]='s'+v.length+':'+v.slice(0,20);
+            else if(Array.isArray(v))r[k]='arr'+v.length+(v.length?'['+v.slice(0,40).map(function(x){return typeof x==='string'?('s'+x.length):(typeof x==='number'?String(x):typeof x);}).join(',')+']':'');
+            else if(typeof v==='function')r[k]='fn';
+            else if(v===null)r[k]='null';
+            else if(typeof v==='object')r[k]='obj';
+            else r[k]=v;
+          });
+          return r;
+        }
+        var o={__c:dump(window.__c), n:n};
+        localStorage.setItem('__snap3',JSON.stringify(o));
+        clearInterval(t);
+      }
+    }catch(e){localStorage.setItem('__snap3','ERR '+e.message);clearInterval(t);}
+    if(n>3000)clearInterval(t);
+  },3);
+})();
+</script>
+</body></html>
+

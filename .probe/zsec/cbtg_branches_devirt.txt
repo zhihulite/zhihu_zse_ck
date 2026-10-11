@@ -1,0 +1,490 @@
+=== 1022 (pc 170..205) ===
+      A[0] = 3;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[15] = A[0];
+      A[0] = l[7];
+      S.push(A[0]);
+      A[0] = l[9];
+      A[3] = A[0](...S.splice(-1));
+      l[16] = A[3];
+      A[0] = l[11];
+      S.push(A[0]);
+      A[0] = l[12];
+      S.push(A[0]);
+      A[0] = l[10];
+      A[3] = A[0](...S.splice(-2));
+      l[17] = A[3];
+      A[0] = l[15];
+      S.push(A[0]);
+      A[0] = l[9];
+      A[3] = A[0](...S.splice(-1));
+      l[18] = A[3];
+      A[0] = l[16];
+      S.push(A[0]);
+      A[0] = l[17];
+      S.push(A[0]);
+      A[0] = l[18];
+      S.push(A[0]);
+      S.push("Reflect");
+      A[0] = M_EVAL(S.pop());
+      S.push("set");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-3)); }
+      pc = 205; continue; }
+
+=== 1024 (pc 211..269) ===
+      A[0] = 5;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      l[19] = A[0];
+      A[0] = l[13];
+      S.push(A[0]);
+      A[0] = l[11];
+      S.push(A[0]);
+      A[0] = l[12];
+      S.push(A[0]);
+      S.push("DataView");
+      A[0] = M_EVAL(S.pop());
+      A[3] = new A[0](...S.splice(-3));
+      l[20] = A[3];
+      A[0] = l[20];
+      S.push(A[0]);
+      A[0] = l[19];
+      S.push("decode");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-1)); }
+      l[21] = A[3];
+      A[0] = l[7];
+      S.push(A[0]);
+      A[0] = l[9];
+      A[3] = A[0](...S.splice(-1));
+      l[16] = A[3];
+      A[0] = l[16];
+      S.push(A[0]);
+      A[0] = l[21];
+      S.push(A[0]);
+      S.push("Reflect");
+      A[0] = M_EVAL(S.pop());
+      S.push("get");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-2)); }
+      l[22] = A[3];
+      A[0] = l[5];
+      S.push(A[0]);
+      A[0] = l[22];
+      S.push(A[0]);
+      A[0] = l[14];
+      A[3] = A[0](...S.splice(-2));
+      A[0] = l[13];
+      S.push(A[0]);
+      S.push("DataView");
+      A[0] = M_EVAL(S.pop());
+      A[3] = new A[0](...S.splice(-1));
+      l[23] = A[3];
+      A[0] = l[5];
+      A[1] = 8;
+      A[3] = A[0] + A[1];
+      l[24] = A[3];
+      A[0] = l[24];
+      S.push(A[0]);
+      A[0] = 1;
+      S.push(A[0]);
+      A[0] = l[23];
+      S.push("setUint8");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-2)); }
+      pc = 269; continue; }
+
+=== 1026 (pc 275..369) ===
+      A[0] = l[7];
+      S.push(A[0]);
+      A[0] = l[9];
+      A[3] = A[0](...S.splice(-1));
+      l[16] = A[3];
+      A[0] = l[11];
+      S.push(A[0]);
+      A[0] = l[12];
+      S.push(A[0]);
+      A[0] = l[10];
+      A[3] = A[0](...S.splice(-2));
+      l[25] = A[3];
+      A[0] = 6;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      l[26] = A[0];
+      A[0] = 7;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[27] = A[0];
+      A[0] = 8;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[28] = A[0];
+      A[0] = 9;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[29] = A[0];
+      A[0] = l[27];
+      S.push(A[0]);
+      A[0] = l[28];
+      S.push(A[0]);
+      A[0] = l[29];
+      S.push(A[0]);
+      A[0] = l[26];
+      A[3] = A[0](...S.splice(-3));
+      l[30] = A[3];
+      A[0] = l[16];
+      S.push(A[0]);
+      A[0] = l[25];
+      S.push(A[0]);
+      S.push("Reflect");
+      A[0] = M_EVAL(S.pop());
+      S.push("get");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-2)); }
+      l[31] = A[3];
+      A[0] = l[31];
+      S.push(A[0]);
+      A[0] = l[16];
+      S.push(A[0]);
+      A[0] = l[30];
+      S.push(A[0]);
+      S.push("Reflect");
+      A[0] = M_EVAL(S.pop());
+      S.push("apply");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-3)); }
+      l[32] = A[3];
+      A[0] = l[5];
+      S.push(A[0]);
+      A[0] = l[32];
+      S.push(A[0]);
+      A[0] = l[14];
+      A[3] = A[0](...S.splice(-2));
+      A[0] = l[13];
+      S.push(A[0]);
+      S.push("DataView");
+      A[0] = M_EVAL(S.pop());
+      A[3] = new A[0](...S.splice(-1));
+      l[23] = A[3];
+      A[0] = l[5];
+      A[1] = 8;
+      A[3] = A[0] + A[1];
+      l[24] = A[3];
+      A[0] = l[24];
+      S.push(A[0]);
+      A[0] = 1;
+      S.push(A[0]);
+      A[0] = l[23];
+      S.push("setUint8");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-2)); }
+      pc = 368; continue; }
+      if (F) { pc = 369; continue; }
+      pc = 369; continue; }
+
+=== 1028 (pc 369..460) ===
+      A[0] = l[6];
+      A[1] = "1028";
+      A[3] = A[0] === A[1];
+      F = !!A[3];
+      if (!F) { pc = 424; continue; }
+      pc = 374; continue; }
+      A[0] = 7;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      l[33] = A[0];
+      A[0] = l[7];
+      S.push(A[0]);
+      A[0] = l[9];
+      A[3] = A[0](...S.splice(-1));
+      l[34] = A[3];
+      A[0] = l[34];
+      S.push(A[0]);
+      S.push("String");
+      A[0] = M_EVAL(S.pop());
+      l[35] = A[3];
+      A[0] = l[35];
+      S.push(A[0]);
+      A[0] = l[33];
+      S.push("encode");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-1)); }
+      l[36] = A[3];
+      A[0] = l[5];
+      S.push(A[0]);
+      A[0] = l[36];
+      S.push(A[0]);
+      A[0] = l[14];
+      A[3] = A[0](...S.splice(-2));
+      A[0] = l[13];
+      S.push(A[0]);
+      S.push("DataView");
+      A[0] = M_EVAL(S.pop());
+      A[3] = new A[0](...S.splice(-1));
+      l[23] = A[3];
+      A[0] = l[5];
+      A[1] = 8;
+      A[3] = A[0] + A[1];
+      l[24] = A[3];
+      A[0] = l[24];
+      S.push(A[0]);
+      A[0] = 1;
+      S.push(A[0]);
+      A[0] = l[23];
+      S.push("setUint8");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-2)); }
+      if (F) { pc = 599; continue; }
+      pc = 419; continue; }
+      return { A: A, l: l };
+      }
+      S.push("String");
+      A[0] = M_EVAL(S.pop());
+      l[35] = A[3];
+      A[0] = l[35];
+      pc = 424; continue; }
+      S.push(A[0]);
+      pc = 425; continue; }
+      A[0] = l[33];
+      S.push("encode");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-1)); }
+      l[36] = A[3];
+      A[0] = l[5];
+      S.push(A[0]);
+      A[0] = l[36];
+      S.push(A[0]);
+      A[0] = l[14];
+      A[3] = A[0](...S.splice(-2));
+      A[0] = l[13];
+      S.push(A[0]);
+      S.push("DataView");
+      A[0] = M_EVAL(S.pop());
+      A[3] = new A[0](...S.splice(-1));
+      l[23] = A[3];
+      A[0] = l[5];
+      A[1] = 8;
+      A[3] = A[0] + A[1];
+      l[24] = A[3];
+      A[0] = l[36];
+      S.push("length");
+      A[0] = M_GET(A[0], S.pop());
+      l[37] = A[0];
+      A[0] = l[24];
+      S.push(A[0]);
+      A[0] = l[37];
+      S.push(A[0]);
+      A[0] = "true";
+      S.push(A[0]);
+      A[0] = l[23];
+      S.push("setInt32");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-3)); }
+      if (F) { pc = 425; continue; }
+      pc = 459; continue; }
+      A[0] = l[6];
+      A[1] = "1030";
+      A[3] = A[0] === A[1];
+      F = !!A[3];
+      if (!F) { pc = 478; continue; }
+      pc = 464; continue; }
+
+=== 1030 (pc 460..514) ===
+      A[0] = 8;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      l[38] = A[0];
+      A[0] = 10;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[39] = A[0];
+      A[0] = 11;
+      pc = 478; continue; }
+      S.push(A[0]);
+      pc = 479; continue; }
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[40] = A[0];
+      A[0] = 12;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[41] = A[0];
+      A[0] = l[7];
+      S.push(A[0]);
+      A[0] = l[9];
+      A[3] = A[0](...S.splice(-1));
+      l[42] = A[3];
+      A[0] = l[39];
+      S.push(A[0]);
+      A[0] = l[40];
+      S.push(A[0]);
+      A[0] = l[41];
+      S.push(A[0]);
+      A[0] = l[38];
+      A[3] = A[0](...S.splice(-3));
+      l[43] = A[3];
+      A[0] = l[42];
+      S.push(A[0]);
+      A[0] = l[43];
+      S.push("set");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-1)); }
+      if (F) { pc = 479; continue; }
+      pc = 513; continue; }
+      A[0] = l[6];
+      pc = 514; continue; }
+
+=== 1032 (pc 514..550) ===
+      A[1] = "1032";
+      pc = 515; continue; }
+      A[3] = A[0] === A[1];
+      F = !!A[3];
+      if (!F) { pc = 514; continue; }
+      pc = 518; continue; }
+      A[0] = l[11];
+      S.push(A[0]);
+      A[0] = l[12];
+      S.push(A[0]);
+      A[0] = l[10];
+      A[3] = A[0](...S.splice(-2));
+      l[44] = A[3];
+      A[0] = l[5];
+      S.push(A[0]);
+      A[0] = l[44];
+      S.push(A[0]);
+      A[0] = l[14];
+      A[3] = A[0](...S.splice(-2));
+      A[0] = l[13];
+      S.push(A[0]);
+      S.push("DataView");
+      A[0] = M_EVAL(S.pop());
+      A[3] = new A[0](...S.splice(-1));
+      l[23] = A[3];
+      A[0] = l[5];
+      A[1] = 8;
+      A[3] = A[0] + A[1];
+      l[24] = A[3];
+      A[0] = l[24];
+      S.push(A[0]);
+      A[0] = 1;
+      S.push(A[0]);
+      A[0] = l[23];
+      S.push("setUint8");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-2)); }
+      if (F) { pc = 515; continue; }
+      pc = 549; continue; }
+      A[0] = l[6];
+      A[1] = "1034";
+      A[3] = A[0] === A[1];
+      F = !!A[3];
+      if (!F) { pc = 598; continue; }
+      pc = 554; continue; }
+
+=== 1034 (pc 550..9999) ===
+      A[0] = l[7];
+      S.push(A[0]);
+      A[0] = l[9];
+      A[3] = A[0](...S.splice(-1));
+      l[16] = A[3];
+      A[0] = 6;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      l[26] = A[0];
+      A[0] = 7;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[27] = A[0];
+      A[0] = 8;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[28] = A[0];
+      A[0] = 9;
+      S.push(A[0]);
+      A[0] = 0;
+      S.push(A[0]);
+      A[0] = l[0];
+      A[0] = M_GET(A[0], S.pop());
+      A[0] = M_GET(A[0], S.pop());
+      l[29] = A[0];
+      A[0] = l[27];
+      S.push(A[0]);
+      A[0] = l[28];
+      S.push(A[0]);
+      A[0] = l[29];
+      S.push(A[0]);
+      A[0] = l[26];
+      A[3] = A[0](...S.splice(-3));
+      l[30] = A[3];
+      A[0] = l[16];
+      pc = 598; continue; }
+      S.push(A[0]);
+      pc = 599; continue; }
+      S.push("undefined");
+      A[0] = M_EVAL(S.pop());
+      S.push(A[0]);
+      A[0] = l[30];
+      S.push(A[0]);
+      S.push("Reflect");
+      A[0] = M_EVAL(S.pop());
+      S.push("apply");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-3)); }
+      l[32] = A[3];
+      A[0] = l[5];
+      S.push(A[0]);
+      A[0] = l[32];
+      S.push(A[0]);
+      A[0] = l[14];
+      A[3] = A[0](...S.splice(-2));
+      A[0] = l[13];
+      S.push(A[0]);
+      S.push("DataView");
+      A[0] = M_EVAL(S.pop());
+      A[3] = new A[0](...S.splice(-1));
+      l[23] = A[3];
+      A[0] = l[5];
+      A[1] = 8;
+      A[3] = A[0] + A[1];
+      l[24] = A[3];
+      A[0] = l[24];
+      S.push(A[0]);
+      A[0] = 1;
+      S.push(A[0]);
+      A[0] = l[23];
+      S.push("setUint8");
+      { const _m = S.pop(); A[3] = A[0][_m](...S.splice(-2)); }
+      if (F) { pc = 599; continue; }
+      pc = 633; continue; }
+    default: throw new Error('bad pc ' + pc);
+  } }
+}
+if (typeof module !== 'undefined') { module.exports = { RUN: RUN, M_GET: M_GET, M_SET: M_SET, M_EVAL: M_EVAL, DEC: DEC_POOL }; }

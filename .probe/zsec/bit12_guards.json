@@ -1,0 +1,10 @@
+[
+ ["cvm: !!qSA('div:not(:has(div))')+1 !== 2   [原表达式]", "!!document.querySelectorAll('div:not(:has(div))') + 1 !== 2"],
+ ["cvm: !!qSA(':defined')+1 !== 2", "!!document.querySelectorAll(':defined') + 1 !== 2"],
+ ["cvm: qSA('div:not(:has(div))').length", "document.querySelectorAll('div:not(:has(div))').length"],
+ ["cvm: qSA(':defined').length", "document.querySelectorAll(':defined').length"],
+ ["payload: Object.keys(Proxy(window)).indexOf('top')", "Object.keys(new Proxy(window,{get:function(a,b){return b in a ? a[b] : undefined;},set:function(){return true;}})).indexOf('top')"],
+ ["payload: canvas.width typeof", "typeof document.createElement('canvas').width"],
+ ["inner: XHR.OPENED typeof", "typeof new XMLHttpRequest().OPENED"],
+ ["inner: XHR.DONE typeof", "typeof new XMLHttpRequest().DONE"]
+]

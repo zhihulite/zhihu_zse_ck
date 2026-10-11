@@ -1,0 +1,30 @@
+import re
+d=open('.probe/zse-ck.wasm','rb').read()
+SEG_OFF=0x010121; SEG_LEN=247060
+seg=d[SEG_OFF:SEG_OFF+SEG_LEN]
+def addr(i): return 0x010121+i
+sm4=bytes([0xd6,0x90,0xe9,0xfe,0xcc,0xe1,0x3d,0xb7,0x16,0xb6,0x14,0xc2,0x28,0xfb,0x2c,0x05,
+0x2b,0x67,0x9a,0x76,0x2a,0xbe,0x04,0xc3,0xaa,0x44,0x13,0x26,0x49,0x86,0x06,0x99,
+0x9c,0x42,0x50,0xf4,0x91,0xef,0x98,0x7a,0x33,0x54,0x0b,0x43,0xed,0xcf,0xac,0x62,
+0xe4,0xb3,0x1c,0xa9,0xc9,0x08,0xe8,0x95,0x80,0xdf,0x94,0xfa,0x75,0x8f,0x3f,0xa6])
+print('SM4 std sbox (0xd6..) found at:', [hex(addr(j)) for j in range(len(seg)) if seg.startswith(sm4[:8],j)][:5])
+# any 256-byte permutation?
+for name,pat in [('ALPHABET_WASM', b'rBPa7xz6ReFTKuVHLE'),
+                 ('ALPHABET_WASM2', b'=IS0sJ5jwf2YCAGqXdWhQ'),
+                 ('std_b64', b'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/')]:
+    j=seg.find(pat)
+    print(name,'->',hex(addr(j)) if j>=0 else 'none')
+    if j>=0: print('   ',seg[j:j+80])
+# find runs of printable >= 64 chars
+runs=[]
+i=0
+while i<len(seg):
+    if 32<=seg[i]<127:
+        j=i
+        while j<len(seg) and 32<=seg[j]<127: j+=1
+        if j-i>=80: runs.append((addr(i),j-i,seg[i:i+70]))
+        i=j
+    else: i+=1
+print('\nlong printable runs (>=80):',len(runs))
+for a,l,pre in runs[:40]:
+    print(f'  0x{a:06X} len={l} {pre!r}')

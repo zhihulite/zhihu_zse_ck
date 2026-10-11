@@ -1,0 +1,3980 @@
+[
+{
+"name": "_000000bound",
+"wat_bytes": 5056,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+31,
+32,
+40
+],
+"const_big": [
+65280,
+315316
+],
+"ops": {
+"i32.shl": 8,
+"i32.or": 1,
+"i32.and": 1,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_00000Obound",
+"wat_bytes": 1752,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+12
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 1,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_000OoObound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_000o00bound",
+"wat_bytes": 3779,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$runtime.lookupPanic",
+"$runtime.nilPanic",
+"$runtime.runtimePanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+308,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+5,
+16,
+18,
+24,
+28,
+31,
+32
+],
+"const_big": [
+70873,
+71820,
+315316
+],
+"ops": {
+"i32.shl": 4,
+"i32.and": 1,
+"i32.add": 13,
+"i32.sub": 1,
+"i32.ne": 1,
+"i32.gt_u": 1,
+"if": 7,
+"block": 3,
+"i64.store": 2
+},
+"cls": "其他"
+},
+{
+"name": "_000o0obound",
+"wat_bytes": 1751,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+7,
+9
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 1,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_000oOObound",
+"wat_bytes": 320,
+"n_params": 1,
+"n_locals": 0,
+"calls": [
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20
+],
+"const_small": [
+0,
+1
+],
+"const_big": [],
+"ops": {
+"i32.add": 1,
+"if": 1
+},
+"cls": "其他"
+},
+{
+"name": "_00OOO0bound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+7,
+30,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_00OoOObound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+7,
+30,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_00OooObound",
+"wat_bytes": 11444,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.alloc",
+"$runtime.lookupPanic",
+"$runtime.nilPanic",
+"$runtime.runtimePanic",
+"$runtime.sliceAppend",
+"$runtime.slicePanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+20,
+24,
+28,
+40,
+44,
+56,
+60,
+68,
+72,
+76,
+80,
+84,
+92,
+96,
+100,
+104,
+108,
+112,
+116,
+120,
+124,
+128,
+132,
+136,
+140,
+144,
+148,
+152,
+156,
+160,
+164,
+168,
+172,
+176,
+180,
+184,
+188,
+284,
+288,
+296,
+300,
+304,
+308,
+312,
+336,
+348,
+360,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+4,
+8,
+12,
+18,
+22,
+24,
+28,
+32,
+40
+],
+"const_big": [
+70873,
+71780,
+315312,
+315316
+],
+"ops": {
+"i32.shl": 4,
+"i32.and": 2,
+"i32.add": 31,
+"i32.sub": 4,
+"i32.ne": 1,
+"i32.gt_u": 2,
+"if": 11,
+"block": 5,
+"loop": 1,
+"memory.fill": 1,
+"i64.store": 7,
+"i64.load": 5
+},
+"cls": "调用 _O0o0Oo"
+},
+{
+"name": "_00o0O0bound",
+"wat_bytes": 1486,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_00o0OObound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_00o0Oobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_00oOoobound",
+"wat_bytes": 1486,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_00ooO0bound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+6,
+7,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_00oooobound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0O00oObound",
+"wat_bytes": 977,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.shr_s": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_0O0O00bound",
+"wat_bytes": 1752,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+10
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 1,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0O0o00bound",
+"wat_bytes": 1752,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+7,
+15
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 1,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0O0oOobound",
+"wat_bytes": 2002,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+6,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0O0oo0bound",
+"wat_bytes": 977,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.shr_s": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_0O0ooObound",
+"wat_bytes": 1916,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0OO0oObound",
+"wat_bytes": 1964,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+6,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0OOO00bound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0OOO0Obound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+7,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0OOo0obound",
+"wat_bytes": 1891,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_u": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "其他"
+},
+{
+"name": "_0Oo000bound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+6,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0Ooo00bound",
+"wat_bytes": 1752,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+13
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 1,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0Ooo0obound",
+"wat_bytes": 5058,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+32,
+40
+],
+"const_big": [
+65280,
+315316
+],
+"ops": {
+"i32.shl": 7,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_0o0O00bound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0o0Ooobound",
+"wat_bytes": 5056,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+31,
+32,
+40
+],
+"const_big": [
+315316
+],
+"ops": {
+"i32.shl": 8,
+"i32.or": 1,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_0oO0o0bound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0oOOOObound",
+"wat_bytes": 5094,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+32,
+40
+],
+"const_big": [
+65280,
+315316
+],
+"ops": {
+"i32.shl": 8,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_0oOoO0bound",
+"wat_bytes": 1964,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0oOooObound",
+"wat_bytes": 1486,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+7
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0oo0OObound",
+"wat_bytes": 1916,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0ooOO0bound",
+"wat_bytes": 1964,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0ooOo0bound",
+"wat_bytes": 1964,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+7,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0ooOoObound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_0oooOobound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_O0000Obound",
+"wat_bytes": 5093,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+32,
+40
+],
+"const_big": [
+65280,
+315316
+],
+"ops": {
+"i32.shl": 8,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_O000O0bound",
+"wat_bytes": 7591,
+"n_params": 1,
+"n_locals": 9,
+"calls": [
+"$main._0oooOO",
+"$runtime.alloc",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+44,
+48,
+52,
+56,
+60,
+64,
+68,
+72,
+284,
+308,
+312,
+320,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+6,
+8,
+13,
+16,
+24,
+28,
+31,
+32
+],
+"const_big": [
+65280,
+71680,
+71780,
+315316
+],
+"ops": {
+"i32.shl": 12,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 27,
+"i32.sub": 2,
+"if": 12,
+"block": 7,
+"br_table": 1,
+"memory.fill": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_O000Oobound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_O00o0obound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_O0o0oobound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_O0oO00bound",
+"wat_bytes": 1916,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_O0oO0obound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_O0oOo0bound",
+"wat_bytes": 7591,
+"n_params": 1,
+"n_locals": 9,
+"calls": [
+"$main._0oooOO",
+"$runtime.alloc",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+44,
+48,
+52,
+56,
+60,
+64,
+68,
+72,
+284,
+308,
+312,
+320,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+5,
+8,
+13,
+16,
+24,
+28,
+31,
+32
+],
+"const_big": [
+65280,
+71680,
+71780,
+315316
+],
+"ops": {
+"i32.shl": 12,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 27,
+"i32.sub": 2,
+"if": 12,
+"block": 7,
+"br_table": 1,
+"memory.fill": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OO0000bound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OO000obound",
+"wat_bytes": 1714,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8,
+16
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_OO0O0obound",
+"wat_bytes": 977,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.shr_s": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_OO0OOobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OOO0oobound",
+"wat_bytes": 1891,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_u": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "其他"
+},
+{
+"name": "_OOOO00bound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OOOOOobound",
+"wat_bytes": 1486,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+7
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OOOoOobound",
+"wat_bytes": 6007,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$runtime.lookupPanic",
+"$runtime.nilPanic",
+"$runtime.slicePanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+44,
+48,
+52,
+56,
+60,
+64,
+68,
+72,
+284,
+296,
+308,
+336,
+340,
+348,
+352,
+360,
+364,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+12,
+16,
+17
+],
+"const_big": [
+315316
+],
+"ops": {
+"i32.shl": 3,
+"i32.add": 17,
+"i32.sub": 4,
+"i32.mul": 2,
+"i32.gt_u": 3,
+"if": 10,
+"block": 3,
+"memory.fill": 1,
+"i64.store": 2,
+"i64.load": 2
+},
+"cls": "其他"
+},
+{
+"name": "_OOo0O0bound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OOo0OObound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+7,
+30,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OOoOOObound",
+"wat_bytes": 1486,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OOooo0bound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_Oo00Oobound",
+"wat_bytes": 1916,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_Oo00oobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_Oo0O00bound",
+"wat_bytes": 1853,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "其他"
+},
+{
+"name": "_Oo0O0obound",
+"wat_bytes": 977,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+7
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.shr_s": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_Oo0OOobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_Oo0o00bound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_Oo0o0obound",
+"wat_bytes": 939,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_Oo0oOobound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OoO00obound",
+"wat_bytes": 1964,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OoO0oobound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OoOOOobound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+6,
+7,
+30,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OoOoOObound",
+"wat_bytes": 5093,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+32,
+40
+],
+"const_big": [
+315316
+],
+"ops": {
+"i32.shl": 8,
+"i32.or": 1,
+"i32.and": 1,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_OoOoOobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_OooOO0bound",
+"wat_bytes": 1752,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+11
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 1,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_Oooo00bound",
+"wat_bytes": 1916,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_Ooooo0bound",
+"wat_bytes": 7992,
+"n_params": 1,
+"n_locals": 9,
+"calls": [
+"$runtime.alloc",
+"$runtime.lookupPanic",
+"$runtime.nilPanic",
+"$runtime.sliceAppend",
+"$runtime.slicePanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+44,
+48,
+52,
+56,
+60,
+64,
+68,
+72,
+76,
+80,
+84,
+88,
+296,
+300,
+304,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+4,
+8,
+12,
+15,
+24,
+28,
+31,
+32
+],
+"const_big": [
+295176,
+315312,
+315316
+],
+"ops": {
+"i32.shl": 8,
+"i32.or": 1,
+"i32.add": 19,
+"i32.sub": 4,
+"i32.gt_u": 2,
+"if": 14,
+"block": 5,
+"loop": 1,
+"memory.fill": 1
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_o00O0obound",
+"wat_bytes": 1486,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o00OoObound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o00o0obound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+6,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o00oOObound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o0O000bound",
+"wat_bytes": 5094,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+32,
+40
+],
+"const_big": [
+315316
+],
+"ops": {
+"i32.shl": 8,
+"i32.or": 1,
+"i32.and": 1,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_o0O00obound",
+"wat_bytes": 1662,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_o0O0Oobound",
+"wat_bytes": 977,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.shr_s": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_o0O0oObound",
+"wat_bytes": 1662,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_o0OOOobound",
+"wat_bytes": 1448,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_o0Oo00bound",
+"wat_bytes": 1964,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+7,
+30,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o0OoOobound",
+"wat_bytes": 2002,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+7,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o0Ooo0bound",
+"wat_bytes": 977,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.shr_s": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_o0o0Oobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o0oOoObound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_o0ooO0bound",
+"wat_bytes": 977,
+"n_params": 1,
+"n_locals": 2,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3
+],
+"const_big": [],
+"ops": {
+"i32.shl": 1,
+"i32.shr_s": 1,
+"i32.add": 4,
+"if": 2,
+"block": 1
+},
+"cls": "调用解释器 _00oooO"
+},
+{
+"name": "_oO0ooObound",
+"wat_bytes": 2075,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 2,
+"i32.or": 2,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oOO0o0bound",
+"wat_bytes": 2002,
+"n_params": 1,
+"n_locals": 6,
+"calls": [
+"$_*main._0oOoOO_._O0O00o",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+7,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 8,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oOO0oobound",
+"wat_bytes": 1916,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oOOO0Obound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oOOooobound",
+"wat_bytes": 7629,
+"n_params": 1,
+"n_locals": 9,
+"calls": [
+"$main._0oooOO",
+"$runtime.alloc",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+44,
+48,
+52,
+56,
+60,
+64,
+68,
+72,
+284,
+308,
+312,
+320,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+6,
+8,
+13,
+16,
+24,
+28,
+31,
+32
+],
+"const_big": [
+65280,
+71680,
+71780,
+315316
+],
+"ops": {
+"i32.shl": 12,
+"i32.shr_s": 1,
+"i32.shr_u": 1,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 27,
+"i32.sub": 2,
+"if": 12,
+"block": 7,
+"br_table": 1,
+"memory.fill": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oOoOo0bound",
+"wat_bytes": 1700,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._0OO0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+4,
+8
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oo0Ooobound",
+"wat_bytes": 1752,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+14
+],
+"const_big": [],
+"ops": {
+"i32.shl": 5,
+"i32.shr_s": 1,
+"i32.or": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oo0o0obound",
+"wat_bytes": 3864,
+"n_params": 1,
+"n_locals": 8,
+"calls": [
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+308,
+376
+],
+"const_small": [
+1,
+2,
+3,
+4,
+8,
+32
+],
+"const_big": [
+315316
+],
+"ops": {
+"i32.shl": 6,
+"i32.or": 1,
+"i32.add": 13,
+"i32.sub": 1,
+"if": 9,
+"block": 6,
+"br_table": 1,
+"i64.store": 2
+},
+"cls": "左移拼装（位提取）"
+},
+{
+"name": "_ooO0oobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+6,
+28,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_ooOoO0bound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_ooOoOObound",
+"wat_bytes": 1486,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._00oooO",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5
+],
+"const_big": [],
+"ops": {
+"i32.shl": 3,
+"i32.shr_s": 1,
+"i32.or": 1,
+"i32.add": 6,
+"if": 3,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_ooo0Oobound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oooO0Obound",
+"wat_bytes": 1878,
+"n_params": 1,
+"n_locals": 5,
+"calls": [
+"$_*main._0oOoOO_._OOo0o0",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 0,
+"offsets": [
+20,
+308
+],
+"const_small": [
+1,
+2,
+3,
+5,
+24,
+31
+],
+"const_big": [],
+"ops": {
+"i32.shl": 4,
+"i32.shr_s": 2,
+"i32.or": 1,
+"i32.and": 2,
+"i32.add": 7,
+"if": 4,
+"block": 1
+},
+"cls": "右移拼装（位提取）"
+},
+{
+"name": "_oooOO0bound",
+"wat_bytes": 5058,
+"n_params": 1,
+"n_locals": 7,
+"calls": [
+"$_*main._0oOoOO_._O0o0Oo",
+"$runtime.lookupPanic",
+"$runtime.nilPanic"
+],
+"call_indirect": 1,
+"offsets": [
+4,
+8,
+12,
+16,
+20,
+24,
+28,
+32,
+36,
+40,
+284,
+308,
+312,
+376
+],
+"const_small": [
+0,
+1,
+2,
+3,
+7,
+8,
+24,
+28,
+32,
+40
+],
+"const_big": [
+315316
+],
+"ops": {
+"i32.shl": 7,
+"i32.or": 1,
+"i32.and": 1,
+"i32.add": 21,
+"i32.sub": 1,
+"i32.gt_u": 1,
+"if": 11,
+"block": 3,
+"i64.store": 3
+},
+"cls": "左移拼装（位提取）"
+}
+]

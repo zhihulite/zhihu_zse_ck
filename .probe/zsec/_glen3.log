@@ -1,0 +1,92 @@
+glue: window.Go = function
+诊断 window.BigInt = function | hasOwn = true | BigInt = function
+补全局: VM/BVM/CVM/sc = function/function/function
+解码器包装: ok
+eval 插桩钩子已装
+已挂 __probe
+importObject 模块: [ 'wasi_snapshot_preview1', 'gojs', 'env' ]
+实例化 OK 1ms
+go.run 返回
+eval 记录: []
+z 调用记录: []
+payload 内层异常: (无)
+已存 mem_mine.bin: 1310720
+已存 zh_mine.txt 长度: 0 段数: 1
+fetch 日志: []
+String.indexOf 记录: ["zhihu=HIT"]
+indexOf 记录: ["top=HIT","customElements=HIT","name=HIT","self=HIT","print=HIT","open=HIT","_encrypt=HIT","__g=HIT","document=HIT","location=HIT","screen=HIT","history=HIT","navigator=HIT"]
+窗口键自检: {"total":194,"missing":[],"url":"https://www.zhihu.com/","urlHasZhihu":true}
+__c 全字段: no __c
+__c 数组字段: no __c
+G.length 轨迹: n=0 前40=[] 尾20=[]
+__g.ck 已存: 132 005_4N3Xli85J2klr=2ska1ehasEmuP/BugAo4Q4
+env-probe: {"CVMtype":"function","CVMStrLen":32,"onsol":-1,"errStack":"string","winKeys":194,"winKeysSample":"_0x17a3,_g,_0x2a91,Go,__mkNative,VM,BVM,CVM,sc,XMLDocument,find,__dec_log,_oe,__evals,_sio,_io,__IDX,__SIDX,__zh,__pcseq,__zcalls,__targs,__tdepth,__Hcalls,__ztrace","hasDocument":"object","hasLocation":"object","hasScreen":"object","hasHistory":"object","hasNavigator":"object"}
+调用点: []
+pc 轨迹: n=0 head=[] tail=[]
+__JT 指令轨迹: iters=0 changes=0 loopEndAt=0 after=[] tail=[]
+z/J 轨迹(__c): []
+__c pc 轨迹: {"n":0,"head":[],"tail":[]}
+H 记录尾: []
+时间线: []
+同一性: {"winIsGlobal":true,"typeof__b":"undefined","winb":"undefined","same":true,"zhLen":"none","winZhLen":"none","cExists":"undefined","btoa":"function","atob":"function","document":"object","XMLDocument":"function","find":"function"}
+H 调用: []
+实例: []
+原型方法: 
+此刻 __b.zh 长度: none  __c.zh: none
+t 调用实参: []
+pc 序列: len=0 head=[] tail=[]
+扫描 942 长度数组: []
+读 __reads 失败: Cannot read properties of undefined (reading 'slice')
+__zh 探针: {"sets":[],"gets":28,"insts":[]}
+内层 pc 序列长度: 0
+  前 60: []
+  末 40: []
+  最大 pc: null
+读 __fcc 失败: Cannot read properties of undefined (reading 'n')
+__TRACE 长度: 0
+分支事件: 27
+    {"ev":"1024","s":"Object","v7":"object"}
+    {"ev":"1024","s":"Array","v7":"object"}
+    {"ev":"1024","s":"Go","v7":"object"}
+    {"ev":"1026","name":"toString","v7":"function"}
+    {"ev":"1028","len":6505}
+    {"ev":"1030","len":6505}
+    {"ev":"1024","s":"Go","v7":"object"}
+    {"ev":"1024","s":"toString","v7":"function"}
+    {"ev":"1026","name":"toString","v7":"function"}
+    {"ev":"1028","len":37}
+    {"ev":"1030","len":37}
+    {"ev":"1024","s":"VM","v7":"object"}
+    {"ev":"1026","name":"toString","v7":"function"}
+    {"ev":"1028","len":31}
+    {"ev":"1030","len":31}
+    {"ev":"1024","s":"VM","v7":"object"}
+    {"ev":"1024","s":"toString","v7":"function"}
+    {"ev":"1026","name":"toString","v7":"function"}
+    {"ev":"1028","len":61}
+    {"ev":"1030","len":61}
+    {"ev":"1024-key","s":"__g","v7type":"object","rtype":"object","rlen":-1}
+    {"ev":"1032","len":132,"src":"token(不供给)","memHead":"005_4N3Xli85J2klr=2ska1ehasEmuP/BugAo4Q4","memLen":132}
+    {"ev":"1022","v7":"object","key":"ck","val":"string"}
+    {"ev":"1032","len":136041,"src":"read-only(内存原值)","memHead":"var _0x3ba8e2=_0x4811;(function(_0x33433","memLen":136041}
+    {"ev":"1026-throw","name":"eval","msg":"process is not defined"}
+  ERR {"ev":"cbtg-error","marker":"1026","msg":"process is not defined","diag":{"winBigInt":"function","callable":"string","sameAsGlobal":true,"ownKeys":229}}
+解码器 _0x17a3(0xab) 调用记录: [{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"},{"n":171,"r":"BigInt"}]
+payload candidates: 1
+    005_4N3Xli85J2klr=2ska1ehasEmuP/BugAo4Q48SNhibqLMixEDak0xBGwU/5ceO409zoUZr4xHUwVZTf9sdWNH4aJxvw51q8YucE100lSbBTEBMLz1BsqLFeAKfLT9WuS
+wasm://wasm/0014796e:1
+
+
+RuntimeError: unreachable
+    at runtime._panic (wasm://wasm/0014796e:wasm-function[16]:0x1154)
+    at (syscall/js.Value).Get (wasm://wasm/0014796e:wasm-function[60]:0x6c4c)
+    at (syscall/js.Error).Error (wasm://wasm/0014796e:wasm-function[40]:0x4353)
+    at interface:{Error:func:{}{basic:string}}.Error$invoke (wasm://wasm/0014796e:wasm-function[38]:0x4209)
+    at runtime._panic (wasm://wasm/0014796e:wasm-function[16]:0xd5e)
+    at (syscall/js.Value).Call (wasm://wasm/0014796e:wasm-function[186]:0xdf00)
+    at (*main._0oOoOO)._00oooO (wasm://wasm/0014796e:wasm-function[188]:0xf9fc)
+    at (*main._0oOoOO)._o0OOOo$bound (wasm://wasm/0014796e:wasm-function[130]:0xa87a)
+    at _start.command_export (wasm://wasm/0014796e:wasm-function[199]:0x1399e)
+    at window.Go.run (glue:1:8877)
+
+Node.js v25.2.1

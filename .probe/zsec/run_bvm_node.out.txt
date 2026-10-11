@@ -1,0 +1,9 @@
+=== load error: none
+=== global keys sample: ["console","localStorage","sessionStorage","document","navigator","screen","location","setTimeout","setInterval","clearTimeout","clearInterval","Date","Math","JSON","parseInt","parseFloat","isNaN","encodeURIComponent","decodeURIComponent","atob","btoa","TextEncoder","TextDecoder","performance","crypto","addEventListener","removeEventListener","fetch","XMLHttpRequest","WebAssembly","Buffer","Uint8Array","Uint16Array","Int32Array","ArrayBuffer","DataView","Error","TypeError","RangeError","RegExp","String","Number","Boolean","Object","Array","Function","Proxy","Reflect","Symbol","Map","Set","WeakMap","WeakSet","Promise","frames","history","chrome","process","_0x4811","BVM"]
+=== __b present: true
+=== __b own props: ["F","A","X","B","h","R","U","C","D","g","V","I","G","l","J","i","W","H","Y","M","S","z","t","k","o","Z","N","K","P","T","O"]
+=== typeof __b.z: function  typeof __b.t: function
+=== __b.zh: undefined null
+=== __b.word:  program len: 
+=== b.z(b.zh) => undefined 
+=== b.z(0) => boolean true

@@ -1,0 +1,19 @@
+005_6K3/R9Y3tg=6z5u7cg5YBocNUDAjtwQi40k398Ngr8l6aLIAWW8VT/KRIKrZpizrLrZ2r29/bhdduiv09/M3H2djd0TDYzjfKVDfK1skItLc0LGiMmQzMif4Cl2BsrVQ
+005_ous0a11oBmEq8Jxf9bTXvjv8yl3J8ljpMqdGTDzRiMz4UrE/qN8z9JnVVhPhY5AmRIFIBTJZP06i4hsPqBnMg0MY7eALLa6PqvMSy8uwakSusNhL8Cf1ISoPSk05aZu7
+canvas
+div
+return typeof Hlclient !== 'undefined' ? 'y':'n'
+return typeof JSDOM !== 'undefined' ? 'y':'n'
+return typeof __dirname !== 'undefined' ? 'y':'n'
+return typeof __filename !== 'undefined' ? 'y':'n'
+return typeof exports !== 'undefined' ? 'y':'n'
+return typeof module !== 'undefined' ? 'y':'n'
+return typeof process !== 'undefined' ? 'y':'n'
+return typeof require !== 'undefined' ? 'y':'n'
+return typeof v_saf !== 'undefined' ? 'y':'n'
+return typeof window._document !== 'undefined' ? 'y':'n'
+return typeof window._origin !== 'undefined' ? 'y':'n'
+return typeof window._parent !== 'undefined' ? 'y':'n'
+return typeof window._virtualConsole !== 'undefined' ? 'y':'n'
+return typeof ws !== 'undefined' && ws.toString().indexOf('ocke') !== -1 ? 'y':'n'
+try{return window.constructor.toString()}catch(_){return ''}

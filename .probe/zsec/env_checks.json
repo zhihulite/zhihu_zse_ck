@@ -1,0 +1,2394 @@
+[
+ {
+  "layer": "payload",
+  "line": 366,
+  "kind": "typeof",
+  "expr": "typeof v3.all === \"undefined\"",
+  "shift": "3",
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 367,
+  "kind": "typeof",
+  "expr": "typeof t2.all === \"undefined\"",
+  "shift": "3",
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 375,
+  "kind": "typeof",
+  "expr": "typeof v16.all === \"undefined\"",
+  "shift": "3",
+  "dst": "v3"
+ },
+ {
+  "layer": "payload",
+  "line": 378,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": "3",
+  "dst": "v3"
+ },
+ {
+  "layer": "payload",
+  "line": 381,
+  "kind": "typeof",
+  "expr": "typeof t3.length === \"undefined\"",
+  "shift": "3",
+  "dst": "v3"
+ },
+ {
+  "layer": "payload",
+  "line": 544,
+  "kind": "typeof",
+  "expr": "typeof v4.createElement === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 545,
+  "kind": "typeof",
+  "expr": "typeof t2.createElement === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 553,
+  "kind": "typeof",
+  "expr": "typeof v16.createElement === \"undefined\"",
+  "shift": "11",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 554,
+  "kind": "typeof",
+  "expr": "typeof v16.createElement === \"undefined\"",
+  "shift": "11",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 559,
+  "kind": "typeof",
+  "expr": "typeof t3.tagName === \"undefined\"",
+  "shift": "11",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 562,
+  "kind": "typeof",
+  "expr": "typeof t6.tagName === \"undefined\"",
+  "shift": "11",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 595,
+  "kind": "typeof",
+  "expr": "typeof v4.style === \"undefined\"",
+  "shift": "9",
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 596,
+  "kind": "typeof",
+  "expr": "typeof t2.style === \"undefined\"",
+  "shift": "9",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 604,
+  "kind": "typeof",
+  "expr": "typeof v26.style === \"undefined\"",
+  "shift": "9",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 663,
+  "kind": "typeof",
+  "expr": "typeof t4.baseURI === \"undefined\"",
+  "shift": "7",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 675,
+  "kind": "typeof",
+  "expr": "typeof v4.baseURI === \"undefined\"",
+  "shift": "6",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 676,
+  "kind": "typeof",
+  "expr": "typeof t2.baseURI === \"undefined\"",
+  "shift": "6",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 684,
+  "kind": "typeof",
+  "expr": "typeof document.baseURI === \"undefined\"",
+  "shift": "6",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 706,
+  "kind": "indexOf",
+  "expr": "document.baseURI.indexOf(\"zhihu\") === -1",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 721,
+  "kind": "typeof",
+  "expr": "typeof v4.charset === \"undefined\"",
+  "shift": "4",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 722,
+  "kind": "typeof",
+  "expr": "typeof t2.charset === \"undefined\"",
+  "shift": "4",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 730,
+  "kind": "typeof",
+  "expr": "typeof document.charset === \"undefined\"",
+  "shift": "4",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 743,
+  "kind": "typeof",
+  "expr": "typeof v4.body === \"undefined\"",
+  "shift": "3",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 744,
+  "kind": "typeof",
+  "expr": "typeof t2.body === \"undefined\"",
+  "shift": "3",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 752,
+  "kind": "typeof",
+  "expr": "typeof document.body === \"undefined\"",
+  "shift": "3",
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 825,
+  "kind": "typeof",
+  "expr": "typeof v30.getContext === \"undefined\"",
+  "shift": null,
+  "dst": "v4"
+ },
+ {
+  "layer": "payload",
+  "line": 837,
+  "kind": "typeof",
+  "expr": "typeof v4.getContext === \"undefined\"",
+  "shift": "14",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 838,
+  "kind": "typeof",
+  "expr": "typeof t0.getContext === \"undefined\"",
+  "shift": "14",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 846,
+  "kind": "typeof",
+  "expr": "typeof v30.getContext === \"undefined\"",
+  "shift": "14",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 885,
+  "kind": "typeof",
+  "expr": "typeof v5.width === \"undefined\"",
+  "shift": "12",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 886,
+  "kind": "typeof",
+  "expr": "typeof t2.width === \"undefined\"",
+  "shift": "12",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 894,
+  "kind": "typeof",
+  "expr": "typeof v30.width === \"undefined\"",
+  "shift": "12",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 907,
+  "kind": "typeof",
+  "expr": "typeof v5.height === \"undefined\"",
+  "shift": "11",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 908,
+  "kind": "typeof",
+  "expr": "typeof t2.height === \"undefined\"",
+  "shift": "11",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 916,
+  "kind": "typeof",
+  "expr": "typeof v30.height === \"undefined\"",
+  "shift": "11",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 959,
+  "kind": "indexOf",
+  "expr": "v30.outerHTML.indexOf(\"canvas\") === -1",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 986,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": "8",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 998,
+  "kind": "typeof",
+  "expr": "typeof v5.buffer === \"undefined\"",
+  "shift": "7",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 999,
+  "kind": "typeof",
+  "expr": "typeof t2.buffer === \"undefined\"",
+  "shift": "7",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1007,
+  "kind": "typeof",
+  "expr": "typeof window.buffer === \"undefined\"",
+  "shift": "7",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1020,
+  "kind": "typeof",
+  "expr": "typeof v5.emit === \"undefined\"",
+  "shift": "6",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1021,
+  "kind": "typeof",
+  "expr": "typeof t2.emit === \"undefined\"",
+  "shift": "6",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1029,
+  "kind": "typeof",
+  "expr": "typeof window.emit === \"undefined\"",
+  "shift": "6",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1042,
+  "kind": "typeof",
+  "expr": "typeof v5.callPhantom === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1043,
+  "kind": "typeof",
+  "expr": "typeof t2.callPhantom === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1051,
+  "kind": "typeof",
+  "expr": "typeof window.callPhantom === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1064,
+  "kind": "typeof",
+  "expr": "typeof v5.__phantomas === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1065,
+  "kind": "typeof",
+  "expr": "typeof t2.__phantomas === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1073,
+  "kind": "typeof",
+  "expr": "typeof window.__phantomas === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1086,
+  "kind": "typeof",
+  "expr": "typeof v5._phantom === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1087,
+  "kind": "typeof",
+  "expr": "typeof t2._phantom === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1095,
+  "kind": "typeof",
+  "expr": "typeof window._phantom === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1108,
+  "kind": "typeof",
+  "expr": "typeof v5.WebPage === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1109,
+  "kind": "typeof",
+  "expr": "typeof t2.WebPage === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1117,
+  "kind": "typeof",
+  "expr": "typeof window.WebPage === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1130,
+  "kind": "typeof",
+  "expr": "typeof v5.fxdriver_id === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1131,
+  "kind": "typeof",
+  "expr": "typeof t2.fxdriver_id === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1139,
+  "kind": "typeof",
+  "expr": "typeof window.fxdriver_id === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1152,
+  "kind": "typeof",
+  "expr": "typeof v5.__fxdriver_unwrapped === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1153,
+  "kind": "typeof",
+  "expr": "typeof t2.__fxdriver_unwrapped === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1161,
+  "kind": "typeof",
+  "expr": "typeof window.__fxdriver_unwrapped === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1174,
+  "kind": "typeof",
+  "expr": "typeof v5.ubot === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1175,
+  "kind": "typeof",
+  "expr": "typeof t2.ubot === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1183,
+  "kind": "typeof",
+  "expr": "typeof window.ubot === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1196,
+  "kind": "typeof",
+  "expr": "typeof v5.CasperError === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1197,
+  "kind": "typeof",
+  "expr": "typeof t2.CasperError === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1205,
+  "kind": "typeof",
+  "expr": "typeof window.CasperError === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1218,
+  "kind": "typeof",
+  "expr": "typeof v5.casper === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1219,
+  "kind": "typeof",
+  "expr": "typeof t2.casper === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1227,
+  "kind": "typeof",
+  "expr": "typeof window.casper === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1240,
+  "kind": "typeof",
+  "expr": "typeof v5.patchRequire === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1241,
+  "kind": "typeof",
+  "expr": "typeof t2.patchRequire === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1249,
+  "kind": "typeof",
+  "expr": "typeof window.patchRequire === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1262,
+  "kind": "typeof",
+  "expr": "typeof v5.$cdc_asdjflasutopfhvcZLmcfl_ === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1263,
+  "kind": "typeof",
+  "expr": "typeof t2.$cdc_asdjflasutopfhvcZLmcfl_ === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1271,
+  "kind": "typeof",
+  "expr": "typeof document.$cdc_asdjflasutopfhvcZLmcfl_ === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1293,
+  "kind": "typeof",
+  "expr": "typeof navigator.webdriver === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1305,
+  "kind": "typeof",
+  "expr": "typeof v5.__webdriver_script_fn === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1306,
+  "kind": "typeof",
+  "expr": "typeof t2.__webdriver_script_fn === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1314,
+  "kind": "typeof",
+  "expr": "typeof document.__webdriver_script_fn === \"undefined\"",
+  "shift": "5",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1327,
+  "kind": "typeof",
+  "expr": "typeof v5._resourceLoader === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1328,
+  "kind": "typeof",
+  "expr": "typeof t2._resourceLoader === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1336,
+  "kind": "typeof",
+  "expr": "typeof v11._resourceLoader === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1349,
+  "kind": "typeof",
+  "expr": "typeof v5._sessionHistory === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1350,
+  "kind": "typeof",
+  "expr": "typeof t2._sessionHistory === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1358,
+  "kind": "typeof",
+  "expr": "typeof v11._sessionHistory === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1371,
+  "kind": "typeof",
+  "expr": "typeof v5._virtualConsole === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1372,
+  "kind": "typeof",
+  "expr": "typeof t2._virtualConsole === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1380,
+  "kind": "typeof",
+  "expr": "typeof v11._virtualConsole === \"undefined\"",
+  "shift": "4",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1393,
+  "kind": "typeof",
+  "expr": "typeof v5.setItem === \"undefined\"",
+  "shift": "3",
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 1394,
+  "kind": "typeof",
+  "expr": "typeof t2.setItem === \"undefined\"",
+  "shift": "3",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1402,
+  "kind": "typeof",
+  "expr": "typeof localStorage.setItem === \"undefined\"",
+  "shift": "3",
+  "dst": "v5"
+ },
+ {
+  "layer": "payload",
+  "line": 1523,
+  "kind": "typeof",
+  "expr": "typeof v6.all === \"undefined\"",
+  "shift": "13",
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 1524,
+  "kind": "typeof",
+  "expr": "typeof t2.all === \"undefined\"",
+  "shift": "13",
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 1532,
+  "kind": "typeof",
+  "expr": "typeof Document.all === \"undefined\"",
+  "shift": "13",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1535,
+  "kind": "typeof",
+  "expr": "typeof t1.all === \"undefined\"",
+  "shift": "13",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1538,
+  "kind": "typeof",
+  "expr": "typeof t3.length === \"undefined\"",
+  "shift": "13",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1667,
+  "kind": "typeof",
+  "expr": "typeof t2.document === \"undefined\"",
+  "shift": "8",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1670,
+  "kind": "typeof",
+  "expr": "typeof t4.document === \"undefined\"",
+  "shift": "8",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1691,
+  "kind": "typeof",
+  "expr": "typeof window.document === \"undefined\"",
+  "shift": "7",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1693,
+  "kind": "typeof",
+  "expr": "typeof v16.global === \"undefined\"",
+  "shift": "7",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1703,
+  "kind": "typeof",
+  "expr": "typeof v6.global === \"undefined\"",
+  "shift": "6",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1704,
+  "kind": "typeof",
+  "expr": "typeof t2.global === \"undefined\"",
+  "shift": "6",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1712,
+  "kind": "typeof",
+  "expr": "typeof window.global === \"undefined\"",
+  "shift": "6",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1773,
+  "kind": "typeof",
+  "expr": "typeof v6.URL === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 1774,
+  "kind": "typeof",
+  "expr": "typeof t2.URL === \"undefined\"",
+  "shift": "3",
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 1782,
+  "kind": "typeof",
+  "expr": "typeof window.URL === \"undefined\"",
+  "shift": "3",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 1789,
+  "kind": "typeof",
+  "expr": "typeof t4.stop === \"undefined\"",
+  "shift": "3",
+  "dst": "v6"
+ },
+ {
+  "layer": "payload",
+  "line": 2126,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2129,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2134,
+  "kind": "typeof",
+  "expr": "typeof CVM.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2137,
+  "kind": "typeof",
+  "expr": "typeof t14.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2147,
+  "kind": "typeof",
+  "expr": "typeof __b.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2200,
+  "kind": "typeof",
+  "expr": "typeof Function.prototype === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2214,
+  "kind": "typeof",
+  "expr": "typeof window.v_log === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2433,
+  "kind": "typeof",
+  "expr": "typeof v0.width === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2445,
+  "kind": "typeof",
+  "expr": "typeof v0.height === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2457,
+  "kind": "typeof",
+  "expr": "typeof v0.availHeight === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2469,
+  "kind": "typeof",
+  "expr": "typeof v0.availWidth === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2481,
+  "kind": "typeof",
+  "expr": "typeof v0.colorDepth === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2493,
+  "kind": "typeof",
+  "expr": "typeof screen.pixelDepth === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "payload",
+  "line": 2505,
+  "kind": "typeof",
+  "expr": "typeof screen.availLeft === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 130,
+  "kind": "typeof",
+  "expr": "typeof v3.host === \"undefined\"",
+  "shift": "12",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 131,
+  "kind": "typeof",
+  "expr": "typeof t2.host === \"undefined\"",
+  "shift": "12",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 139,
+  "kind": "typeof",
+  "expr": "typeof v9.host === \"undefined\"",
+  "shift": "12",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 152,
+  "kind": "typeof",
+  "expr": "typeof v3.hostname === \"undefined\"",
+  "shift": "11",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 153,
+  "kind": "typeof",
+  "expr": "typeof t2.hostname === \"undefined\"",
+  "shift": "11",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 161,
+  "kind": "typeof",
+  "expr": "typeof v9.hostname === \"undefined\"",
+  "shift": "11",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 174,
+  "kind": "typeof",
+  "expr": "typeof v3.devicePixelRatio === \"undefined\"",
+  "shift": "10",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 175,
+  "kind": "typeof",
+  "expr": "typeof t2.devicePixelRatio === \"undefined\"",
+  "shift": "10",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 183,
+  "kind": "typeof",
+  "expr": "typeof window.devicePixelRatio === \"undefined\"",
+  "shift": "10",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 196,
+  "kind": "typeof",
+  "expr": "typeof v3.blur === \"undefined\"",
+  "shift": "9",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 197,
+  "kind": "typeof",
+  "expr": "typeof t2.blur === \"undefined\"",
+  "shift": "9",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 205,
+  "kind": "typeof",
+  "expr": "typeof window.blur === \"undefined\"",
+  "shift": "9",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 243,
+  "kind": "typeof",
+  "expr": "typeof v3.self === \"undefined\"",
+  "shift": "7",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 244,
+  "kind": "typeof",
+  "expr": "typeof t2.self === \"undefined\"",
+  "shift": "7",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 252,
+  "kind": "typeof",
+  "expr": "typeof window.self === \"undefined\"",
+  "shift": "7",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 312,
+  "kind": "typeof",
+  "expr": "typeof v3.find === \"undefined\"",
+  "shift": "4",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 313,
+  "kind": "typeof",
+  "expr": "typeof t2.find === \"undefined\"",
+  "shift": "4",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 321,
+  "kind": "typeof",
+  "expr": "typeof window.find === \"undefined\"",
+  "shift": "4",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 334,
+  "kind": "typeof",
+  "expr": "typeof v3.globalThis === \"undefined\"",
+  "shift": "3",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 335,
+  "kind": "typeof",
+  "expr": "typeof t2.globalThis === \"undefined\"",
+  "shift": "3",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 343,
+  "kind": "typeof",
+  "expr": "typeof window.globalThis === \"undefined\"",
+  "shift": "3",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 356,
+  "kind": "typeof",
+  "expr": "typeof v3.name === \"undefined\"",
+  "shift": "2",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 357,
+  "kind": "typeof",
+  "expr": "typeof t2.name === \"undefined\"",
+  "shift": "2",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 365,
+  "kind": "typeof",
+  "expr": "typeof window.name === \"undefined\"",
+  "shift": "2",
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 409,
+  "kind": "typeof",
+  "expr": "typeof XMLHttpRequest.LOADING === \"undefined\"",
+  "shift": null,
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 412,
+  "kind": "typeof",
+  "expr": "typeof t1.LOADING === \"undefined\"",
+  "shift": null,
+  "dst": "v3"
+ },
+ {
+  "layer": "inner",
+  "line": 422,
+  "kind": "typeof",
+  "expr": "typeof v3.LOADING === \"undefined\"",
+  "shift": "14",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 423,
+  "kind": "typeof",
+  "expr": "typeof t0.LOADING === \"undefined\"",
+  "shift": "14",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 431,
+  "kind": "typeof",
+  "expr": "typeof v10.LOADING === \"undefined\"",
+  "shift": "14",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 444,
+  "kind": "typeof",
+  "expr": "typeof v4.DONE === \"undefined\"",
+  "shift": "13",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 445,
+  "kind": "typeof",
+  "expr": "typeof t2.DONE === \"undefined\"",
+  "shift": "13",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 453,
+  "kind": "typeof",
+  "expr": "typeof v10.DONE === \"undefined\"",
+  "shift": "13",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 466,
+  "kind": "typeof",
+  "expr": "typeof v4.OPENED === \"undefined\"",
+  "shift": "12",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 467,
+  "kind": "typeof",
+  "expr": "typeof t2.OPENED === \"undefined\"",
+  "shift": "12",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 475,
+  "kind": "typeof",
+  "expr": "typeof v10.OPENED === \"undefined\"",
+  "shift": "12",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 488,
+  "kind": "typeof",
+  "expr": "typeof v4.UNSENT === \"undefined\"",
+  "shift": "11",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 489,
+  "kind": "typeof",
+  "expr": "typeof t2.UNSENT === \"undefined\"",
+  "shift": "11",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 497,
+  "kind": "typeof",
+  "expr": "typeof v10.UNSENT === \"undefined\"",
+  "shift": "11",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 510,
+  "kind": "typeof",
+  "expr": "typeof v4.abort === \"undefined\"",
+  "shift": "10",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 511,
+  "kind": "typeof",
+  "expr": "typeof t2.abort === \"undefined\"",
+  "shift": "10",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 519,
+  "kind": "typeof",
+  "expr": "typeof v10.abort === \"undefined\"",
+  "shift": "10",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 532,
+  "kind": "typeof",
+  "expr": "typeof v4.open === \"undefined\"",
+  "shift": "9",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 533,
+  "kind": "typeof",
+  "expr": "typeof t2.open === \"undefined\"",
+  "shift": "9",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 541,
+  "kind": "typeof",
+  "expr": "typeof v10.open === \"undefined\"",
+  "shift": "9",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 554,
+  "kind": "typeof",
+  "expr": "typeof v4.send === \"undefined\"",
+  "shift": "8",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 555,
+  "kind": "typeof",
+  "expr": "typeof t2.send === \"undefined\"",
+  "shift": "8",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 563,
+  "kind": "typeof",
+  "expr": "typeof v10.send === \"undefined\"",
+  "shift": "8",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 576,
+  "kind": "typeof",
+  "expr": "typeof v4.upload === \"undefined\"",
+  "shift": "7",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 577,
+  "kind": "typeof",
+  "expr": "typeof t2.upload === \"undefined\"",
+  "shift": "7",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 585,
+  "kind": "typeof",
+  "expr": "typeof v10.upload === \"undefined\"",
+  "shift": "7",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 598,
+  "kind": "typeof",
+  "expr": "typeof v4.responseURL === \"undefined\"",
+  "shift": "6",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 599,
+  "kind": "typeof",
+  "expr": "typeof t2.responseURL === \"undefined\"",
+  "shift": "6",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 607,
+  "kind": "typeof",
+  "expr": "typeof v10.responseURL === \"undefined\"",
+  "shift": "6",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 620,
+  "kind": "typeof",
+  "expr": "typeof v4.onreadystatechange === \"undefined\"",
+  "shift": "5",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 621,
+  "kind": "typeof",
+  "expr": "typeof t2.onreadystatechange === \"undefined\"",
+  "shift": "5",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 629,
+  "kind": "typeof",
+  "expr": "typeof v10.onreadystatechange === \"undefined\"",
+  "shift": "5",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 642,
+  "kind": "typeof",
+  "expr": "typeof v4.status === \"undefined\"",
+  "shift": "4",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 643,
+  "kind": "typeof",
+  "expr": "typeof t2.status === \"undefined\"",
+  "shift": "4",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 651,
+  "kind": "typeof",
+  "expr": "typeof v10.status === \"undefined\"",
+  "shift": "4",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 664,
+  "kind": "typeof",
+  "expr": "typeof v4.onabort === \"undefined\"",
+  "shift": "3",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 665,
+  "kind": "typeof",
+  "expr": "typeof t2.onabort === \"undefined\"",
+  "shift": "3",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 673,
+  "kind": "typeof",
+  "expr": "typeof v10.onabort === \"undefined\"",
+  "shift": "3",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 686,
+  "kind": "typeof",
+  "expr": "typeof v4.onabort === \"undefined\"",
+  "shift": "2",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 687,
+  "kind": "typeof",
+  "expr": "typeof t2.onabort === \"undefined\"",
+  "shift": "2",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 695,
+  "kind": "typeof",
+  "expr": "typeof v10.onabort === \"undefined\"",
+  "shift": "2",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 708,
+  "kind": "typeof",
+  "expr": "typeof v4.responseXML === \"undefined\"",
+  "shift": "1",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 709,
+  "kind": "typeof",
+  "expr": "typeof t2.responseXML === \"undefined\"",
+  "shift": "1",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 717,
+  "kind": "typeof",
+  "expr": "typeof v10.responseXML === \"undefined\"",
+  "shift": "1",
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 730,
+  "kind": "typeof",
+  "expr": "typeof v4.timeout === \"undefined\"",
+  "shift": null,
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 731,
+  "kind": "typeof",
+  "expr": "typeof t2.timeout === \"undefined\"",
+  "shift": null,
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 739,
+  "kind": "typeof",
+  "expr": "typeof v10.timeout === \"undefined\"",
+  "shift": null,
+  "dst": "v4"
+ },
+ {
+  "layer": "inner",
+  "line": 808,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 811,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 816,
+  "kind": "typeof",
+  "expr": "typeof BVM.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 819,
+  "kind": "typeof",
+  "expr": "typeof t14.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 829,
+  "kind": "typeof",
+  "expr": "typeof __b.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 882,
+  "kind": "typeof",
+  "expr": "typeof Function.prototype === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 896,
+  "kind": "typeof",
+  "expr": "typeof window.v_log === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 971,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 974,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 979,
+  "kind": "typeof",
+  "expr": "typeof BVM.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 982,
+  "kind": "typeof",
+  "expr": "typeof t14.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 992,
+  "kind": "typeof",
+  "expr": "typeof __b.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 1045,
+  "kind": "typeof",
+  "expr": "typeof Function.prototype === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "inner",
+  "line": 1059,
+  "kind": "typeof",
+  "expr": "typeof window.v_log === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 163,
+  "kind": "typeof",
+  "expr": "typeof v7.body === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 164,
+  "kind": "typeof",
+  "expr": "typeof t2.body === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 172,
+  "kind": "typeof",
+  "expr": "typeof v6.body === \"undefined\"",
+  "shift": "10",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 175,
+  "kind": "typeof",
+  "expr": "typeof t1.root === \"undefined\"",
+  "shift": "10",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 176,
+  "kind": "typeof",
+  "expr": "typeof v6.root === \"undefined\"",
+  "shift": "10",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 179,
+  "kind": "typeof",
+  "expr": "typeof t4.root === \"undefined\"",
+  "shift": "10",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 192,
+  "kind": "typeof",
+  "expr": "typeof v7.filter === \"undefined\"",
+  "shift": "9",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 193,
+  "kind": "typeof",
+  "expr": "typeof t2.filter === \"undefined\"",
+  "shift": "9",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 201,
+  "kind": "typeof",
+  "expr": "typeof v17.filter === \"undefined\"",
+  "shift": "9",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 214,
+  "kind": "typeof",
+  "expr": "typeof v7.detach === \"undefined\"",
+  "shift": "8",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 215,
+  "kind": "typeof",
+  "expr": "typeof t2.detach === \"undefined\"",
+  "shift": "8",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 223,
+  "kind": "typeof",
+  "expr": "typeof v17.detach === \"undefined\"",
+  "shift": "8",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 236,
+  "kind": "typeof",
+  "expr": "typeof v7.whatToShow === \"undefined\"",
+  "shift": "7",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 237,
+  "kind": "typeof",
+  "expr": "typeof t2.whatToShow === \"undefined\"",
+  "shift": "7",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 245,
+  "kind": "typeof",
+  "expr": "typeof v17.whatToShow === \"undefined\"",
+  "shift": "7",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 258,
+  "kind": "typeof",
+  "expr": "typeof v7.cloneRange === \"undefined\"",
+  "shift": "6",
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 259,
+  "kind": "typeof",
+  "expr": "typeof t2.cloneRange === \"undefined\"",
+  "shift": "6",
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 267,
+  "kind": "typeof",
+  "expr": "typeof v6.cloneRange === \"undefined\"",
+  "shift": "6",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 270,
+  "kind": "typeof",
+  "expr": "typeof t1.cloneRange === \"undefined\"",
+  "shift": "6",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 283,
+  "kind": "typeof",
+  "expr": "typeof v7.cloneContents === \"undefined\"",
+  "shift": "5",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 284,
+  "kind": "typeof",
+  "expr": "typeof t2.cloneContents === \"undefined\"",
+  "shift": "5",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 292,
+  "kind": "typeof",
+  "expr": "typeof v18.cloneContents === \"undefined\"",
+  "shift": "5",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 305,
+  "kind": "typeof",
+  "expr": "typeof v7.collapse === \"undefined\"",
+  "shift": "4",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 306,
+  "kind": "typeof",
+  "expr": "typeof t2.collapse === \"undefined\"",
+  "shift": "4",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 314,
+  "kind": "typeof",
+  "expr": "typeof v18.collapse === \"undefined\"",
+  "shift": "4",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 327,
+  "kind": "typeof",
+  "expr": "typeof v7.collapsed === \"undefined\"",
+  "shift": "3",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 328,
+  "kind": "typeof",
+  "expr": "typeof t2.collapsed === \"undefined\"",
+  "shift": "3",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 336,
+  "kind": "typeof",
+  "expr": "typeof v18.collapsed === \"undefined\"",
+  "shift": "3",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 349,
+  "kind": "typeof",
+  "expr": "typeof v7.commonAncestorContainer === \"undefined\"",
+  "shift": "2",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 350,
+  "kind": "typeof",
+  "expr": "typeof t2.commonAncestorContainer === \"undefined\"",
+  "shift": "2",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 358,
+  "kind": "typeof",
+  "expr": "typeof v18.commonAncestorContainer === \"undefined\"",
+  "shift": "2",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 371,
+  "kind": "typeof",
+  "expr": "typeof v7.compareBoundaryPoints === \"undefined\"",
+  "shift": "1",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 372,
+  "kind": "typeof",
+  "expr": "typeof t2.compareBoundaryPoints === \"undefined\"",
+  "shift": "1",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 380,
+  "kind": "typeof",
+  "expr": "typeof v18.compareBoundaryPoints === \"undefined\"",
+  "shift": "1",
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 393,
+  "kind": "typeof",
+  "expr": "typeof v7.comparePoint === \"undefined\"",
+  "shift": null,
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 394,
+  "kind": "typeof",
+  "expr": "typeof t2.comparePoint === \"undefined\"",
+  "shift": null,
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 402,
+  "kind": "typeof",
+  "expr": "typeof v18.comparePoint === \"undefined\"",
+  "shift": null,
+  "dst": "v7"
+ },
+ {
+  "layer": "cvm",
+  "line": 413,
+  "kind": "typeof",
+  "expr": "typeof v7.endOffset === \"undefined\"",
+  "shift": "15",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 414,
+  "kind": "typeof",
+  "expr": "typeof t0.endOffset === \"undefined\"",
+  "shift": "15",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 422,
+  "kind": "typeof",
+  "expr": "typeof v18.endOffset === \"undefined\"",
+  "shift": "15",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 435,
+  "kind": "typeof",
+  "expr": "typeof v8.extractContents === \"undefined\"",
+  "shift": "13",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 436,
+  "kind": "typeof",
+  "expr": "typeof t2.extractContents === \"undefined\"",
+  "shift": "13",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 444,
+  "kind": "typeof",
+  "expr": "typeof v18.extractContents === \"undefined\"",
+  "shift": "13",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 457,
+  "kind": "typeof",
+  "expr": "typeof v8.getBoundingClientRect === \"undefined\"",
+  "shift": "12",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 458,
+  "kind": "typeof",
+  "expr": "typeof t2.getBoundingClientRect === \"undefined\"",
+  "shift": "12",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 466,
+  "kind": "typeof",
+  "expr": "typeof v18.getBoundingClientRect === \"undefined\"",
+  "shift": "12",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 479,
+  "kind": "typeof",
+  "expr": "typeof v8.getClientRects === \"undefined\"",
+  "shift": "11",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 480,
+  "kind": "typeof",
+  "expr": "typeof t2.getClientRects === \"undefined\"",
+  "shift": "11",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 488,
+  "kind": "typeof",
+  "expr": "typeof v18.getClientRects === \"undefined\"",
+  "shift": "11",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 501,
+  "kind": "typeof",
+  "expr": "typeof v8.insertNode === \"undefined\"",
+  "shift": "11",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 502,
+  "kind": "typeof",
+  "expr": "typeof t2.insertNode === \"undefined\"",
+  "shift": "11",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 510,
+  "kind": "typeof",
+  "expr": "typeof v18.insertNode === \"undefined\"",
+  "shift": "11",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 523,
+  "kind": "typeof",
+  "expr": "typeof v8.intersectsNode === \"undefined\"",
+  "shift": "10",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 524,
+  "kind": "typeof",
+  "expr": "typeof t2.intersectsNode === \"undefined\"",
+  "shift": "10",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 532,
+  "kind": "typeof",
+  "expr": "typeof v18.intersectsNode === \"undefined\"",
+  "shift": "10",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 545,
+  "kind": "typeof",
+  "expr": "typeof v8.isPointInRange === \"undefined\"",
+  "shift": "9",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 546,
+  "kind": "typeof",
+  "expr": "typeof t2.isPointInRange === \"undefined\"",
+  "shift": "9",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 554,
+  "kind": "typeof",
+  "expr": "typeof v18.isPointInRange === \"undefined\"",
+  "shift": "9",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 567,
+  "kind": "typeof",
+  "expr": "typeof v8.selectNode === \"undefined\"",
+  "shift": "8",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 568,
+  "kind": "typeof",
+  "expr": "typeof t2.selectNode === \"undefined\"",
+  "shift": "8",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 576,
+  "kind": "typeof",
+  "expr": "typeof v18.selectNode === \"undefined\"",
+  "shift": "8",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 589,
+  "kind": "typeof",
+  "expr": "typeof v8.selectNodeContents === \"undefined\"",
+  "shift": "7",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 590,
+  "kind": "typeof",
+  "expr": "typeof t2.selectNodeContents === \"undefined\"",
+  "shift": "7",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 598,
+  "kind": "typeof",
+  "expr": "typeof v18.selectNodeContents === \"undefined\"",
+  "shift": "7",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 611,
+  "kind": "typeof",
+  "expr": "typeof v8.setEnd === \"undefined\"",
+  "shift": "6",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 612,
+  "kind": "typeof",
+  "expr": "typeof t2.setEnd === \"undefined\"",
+  "shift": "6",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 620,
+  "kind": "typeof",
+  "expr": "typeof v18.setEnd === \"undefined\"",
+  "shift": "6",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 633,
+  "kind": "typeof",
+  "expr": "typeof v8.setEndAfter === \"undefined\"",
+  "shift": "5",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 634,
+  "kind": "typeof",
+  "expr": "typeof t2.setEndAfter === \"undefined\"",
+  "shift": "5",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 642,
+  "kind": "typeof",
+  "expr": "typeof v18.setEndAfter === \"undefined\"",
+  "shift": "5",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 655,
+  "kind": "typeof",
+  "expr": "typeof v8.setEndBefore === \"undefined\"",
+  "shift": "4",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 656,
+  "kind": "typeof",
+  "expr": "typeof t2.setEndBefore === \"undefined\"",
+  "shift": "4",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 664,
+  "kind": "typeof",
+  "expr": "typeof v18.setEndBefore === \"undefined\"",
+  "shift": "4",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 677,
+  "kind": "typeof",
+  "expr": "typeof v8.setStart === \"undefined\"",
+  "shift": "3",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 678,
+  "kind": "typeof",
+  "expr": "typeof t2.setStart === \"undefined\"",
+  "shift": "3",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 686,
+  "kind": "typeof",
+  "expr": "typeof v18.setStart === \"undefined\"",
+  "shift": "3",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 699,
+  "kind": "typeof",
+  "expr": "typeof v8.setStartAfter === \"undefined\"",
+  "shift": "2",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 700,
+  "kind": "typeof",
+  "expr": "typeof t2.setStartAfter === \"undefined\"",
+  "shift": "2",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 708,
+  "kind": "typeof",
+  "expr": "typeof v18.setStartAfter === \"undefined\"",
+  "shift": "2",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 721,
+  "kind": "typeof",
+  "expr": "typeof v8.setStartBefore === \"undefined\"",
+  "shift": "1",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 722,
+  "kind": "typeof",
+  "expr": "typeof t2.setStartBefore === \"undefined\"",
+  "shift": "1",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 730,
+  "kind": "typeof",
+  "expr": "typeof v18.setStartBefore === \"undefined\"",
+  "shift": "1",
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 743,
+  "kind": "typeof",
+  "expr": "typeof v8.startContainer === \"undefined\"",
+  "shift": null,
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 744,
+  "kind": "typeof",
+  "expr": "typeof t2.startContainer === \"undefined\"",
+  "shift": null,
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 752,
+  "kind": "typeof",
+  "expr": "typeof v18.startContainer === \"undefined\"",
+  "shift": null,
+  "dst": "v8"
+ },
+ {
+  "layer": "cvm",
+  "line": 836,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 839,
+  "kind": "typeof",
+  "expr": "typeof t1.length === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 844,
+  "kind": "typeof",
+  "expr": "typeof BVM.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 847,
+  "kind": "typeof",
+  "expr": "typeof t14.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 857,
+  "kind": "typeof",
+  "expr": "typeof __b.zh === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 910,
+  "kind": "typeof",
+  "expr": "typeof Function.prototype === \"undefined\"",
+  "shift": null,
+  "dst": null
+ },
+ {
+  "layer": "cvm",
+  "line": 924,
+  "kind": "typeof",
+  "expr": "typeof window.v_log === \"undefined\"",
+  "shift": null,
+  "dst": null
+ }
+]
